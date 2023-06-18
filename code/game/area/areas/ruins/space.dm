@@ -485,3 +485,8 @@
 
 /area/ruin/space/has_grav/monastery/library/lounge
 	name = "Monastery Library Lounge"
+
+//CLONING LAB
+
+/area/ruin/space/has_grav/cloning_lab
+	name = "Adrift Cloning Lab"
