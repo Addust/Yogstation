@@ -3,18 +3,26 @@
 /turf/template_noop,
 /area/template_noop)
 "ab" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/light/colour_cycle/dancefloor_b,
-/area/shuttle/abandoned/crew)
-"ac" = (
-/obj/structure/closet/emcloset/anchored,
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8
+/obj/structure/chair/stool/bar,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
+/area/shuttle/abandoned/bar)
+"ac" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "ae" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/obj/machinery/light/small,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/plasteel,
 /area/shuttle/abandoned/bar)
 "af" = (
 /obj/effect/spawner/structure/window/plastitanium,
@@ -34,6 +42,9 @@
 /turf/closed/wall/r_wall/syndicate,
 /area/shuttle/abandoned/engine)
 "ai" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/abandoned/engine)
 "ak" = (
@@ -74,12 +85,7 @@
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/bar)
 "ar" = (
-/obj/structure/chair/stool/bar,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/abandoned/bar)
 "as" = (
 /obj/machinery/firealarm{
@@ -162,6 +168,9 @@
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned/engine)
 "aC" = (
@@ -179,17 +188,21 @@
 /turf/open/floor/plasteel/freezer,
 /area/shuttle/abandoned/crew)
 "aI" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/abandoned/engine)
 "aK" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 8
+/obj/effect/spawner/structure/window/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "whiteship_windows"
 	},
-/turf/open/floor/plating/airless,
-/area/shuttle/abandoned/engine)
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/abandoned/crew)
 "aO" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Crew Quarters"
@@ -242,24 +255,21 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /obj/machinery/power/solar{
 	glass_type = /obj/item/stack/sheet/plastitaniumglass
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/shuttle/abandoned/engine)
 "bf" = (
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/structure/closet/emcloset/anchored,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable,
-/obj/machinery/power/solar{
-	glass_type = /obj/item/stack/sheet/plastitaniumglass
-	},
-/turf/open/floor/plasteel/airless/solarpanel,
-/area/shuttle/abandoned/engine)
+/turf/open/floor/plasteel/dark,
+/area/shuttle/abandoned/crew)
 "bg" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -268,16 +278,21 @@
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/bar)
 "bh" = (
-/obj/machinery/firealarm{
+/obj/machinery/airalarm/all_access{
 	dir = 8;
 	pixel_x = 24
 	},
 /turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "bi" = (
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned/cargo)
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/sign/poster/official/obey{
+	pixel_y = 32
+	},
+/turf/open/floor/wood,
+/area/shuttle/abandoned/crew)
 "bj" = (
 /obj/effect/spawner/structure/window/plastitanium,
 /obj/machinery/door/poddoor{
@@ -407,7 +422,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/turf/open/floor/light/colour_cycle/dancefloor_b,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "bH" = (
 /obj/machinery/light{
@@ -558,7 +573,10 @@
 /obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
 	dir = 8;
 	x_offset = -2;
-	y_offset = -8
+	y_offset = -8;
+	shuttleId = "djchu";
+	shuttlePortId = "djchu_custom";
+	name = "navigation computer"
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -592,7 +610,8 @@
 /turf/closed/wall/r_wall/syndicate,
 /area/shuttle/abandoned/cargo)
 "cy" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/cargo)
 "cz" = (
 /obj/effect/spawner/structure/window/plastitanium,
@@ -622,6 +641,15 @@
 	},
 /obj/item/stack/sheet/mineral/plasma/fifty,
 /turf/open/floor/plating,
+/area/shuttle/abandoned/engine)
+"cD" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar{
+	glass_type = /obj/item/stack/sheet/plastitaniumglass
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
 /area/shuttle/abandoned/engine)
 "cE" = (
 /obj/machinery/vending/coffee,
@@ -824,15 +852,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
-"dp" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/shuttle/abandoned/engine)
 "dv" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -1191,6 +1210,18 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/medbay)
+"fG" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/solar{
+	glass_type = /obj/item/stack/sheet/plastitaniumglass
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/shuttle/abandoned/engine)
 "fQ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1325,7 +1356,7 @@
 	dir = 2;
 	dwidth = 11;
 	height = 17;
-	id = "whiteship";
+	id = "djchu";
 	launch_status = 0;
 	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0);
 	name = "DJ Chu's Frigate";
@@ -1335,6 +1366,15 @@
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating,
+/area/shuttle/abandoned/crew)
+"il" = (
+/obj/structure/closet/firecloset{
+	anchored = 1
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/crew)
 "iM" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -1425,17 +1465,8 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/cargo)
 "kW" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/solar{
-	glass_type = /obj/item/stack/sheet/plastitaniumglass
-	},
-/turf/open/floor/plasteel/airless/solarpanel,
-/area/shuttle/abandoned/engine)
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/abandoned/cargo)
 "lA" = (
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
@@ -1494,20 +1525,6 @@
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/medbay)
-"nr" = (
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/shuttle/engine/heater{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-4";
-	tag = ""
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/abandoned/engine)
 "ns" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -1562,12 +1579,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/medbay)
-"nV" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/light/colour_cycle/dancefloor_a,
-/area/shuttle/abandoned/crew)
 "oQ" = (
 /obj/structure/closet/syndicate{
 	req_access_txt = "150"
@@ -1689,17 +1700,6 @@
 /obj/structure/window/plasma/reinforced/spawner/east,
 /turf/open/floor/engine/air,
 /area/shuttle/abandoned/engine)
-"rn" = (
-/obj/machinery/light/small{
-	dir = 1;
-	light_color = "#ffc1c1"
-	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/turf/open/floor/plasteel,
-/area/shuttle/abandoned/bar)
 "rA" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1736,6 +1736,27 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/shuttle/abandoned/medbay)
+"sk" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/plasteel,
+/area/shuttle/abandoned/bar)
+"so" = (
+/obj/machinery/light/small{
+	dir = 1;
+	light_color = "#ffc1c1"
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/plasteel,
+/area/shuttle/abandoned/bar)
 "sD" = (
 /turf/open/floor/wood,
 /area/shuttle/abandoned/crew)
@@ -1793,13 +1814,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned/crew)
-"ud" = (
-/obj/machinery/airalarm/all_access{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "uf" = (
 /obj/effect/turf_decal/tile/bar,
@@ -1874,15 +1888,22 @@
 "ws" = (
 /turf/closed/wall/r_wall/syndicate,
 /area/shuttle/abandoned/medbay)
-"wA" = (
-/obj/structure/closet/firecloset{
-	anchored = 1
-	},
+"wt" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned/crew)
+/area/shuttle/abandoned/cargo)
+"wA" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/plasteel,
+/area/shuttle/abandoned/bar)
 "wC" = (
 /obj/effect/turf_decal/delivery/white,
 /obj/machinery/suit_storage_unit/standard_unit,
@@ -2025,18 +2046,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/medbay)
-"Cb" = (
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/solar{
-	glass_type = /obj/item/stack/sheet/plastitaniumglass
-	},
-/turf/open/floor/plasteel/airless/solarpanel,
-/area/shuttle/abandoned/engine)
 "Ci" = (
 /obj/effect/decal/cleanable/oil,
 /obj/machinery/light/small{
@@ -2153,9 +2162,14 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/abandoned/crew)
+"EL" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/crew)
 "EV" = (
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/shuttle/engine/heater{
+/obj/structure/shuttle/engine/propulsion{
 	dir = 8
 	},
 /obj/structure/cable{
@@ -2163,12 +2177,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned/engine)
-"FP" = (
-/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
-	dir = 10
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned/cargo)
 "FU" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -2244,21 +2252,6 @@
 	dir = 5
 	},
 /area/shuttle/abandoned/medbay)
-"HM" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/solar{
-	glass_type = /obj/item/stack/sheet/plastitaniumglass
-	},
-/turf/open/floor/plasteel/airless/solarpanel,
-/area/shuttle/abandoned/engine)
 "HV" = (
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/machinery/light/small{
@@ -2266,6 +2259,13 @@
 	},
 /turf/open/floor/engine/air,
 /area/shuttle/abandoned/engine)
+"Ip" = (
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/shuttle/abandoned/crew)
 "IY" = (
 /obj/machinery/door/airlock/medical{
 	name = "Medbay Storage"
@@ -2326,22 +2326,18 @@
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)
 "JF" = (
-/obj/structure/cable{
-	icon_state = "0-8"
+/obj/machinery/light/small{
+	dir = 1
 	},
-/obj/machinery/power/solar{
-	glass_type = /obj/item/stack/sheet/plastitaniumglass
+/turf/open/floor/plasteel/dark,
+/area/shuttle/abandoned/cargo)
+"JK" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/shuttle/abandoned/engine)
-"JK" = (
-/obj/machinery/light/small,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/turf/open/floor/plasteel,
-/area/shuttle/abandoned/bar)
 "JN" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/bar,
@@ -2367,12 +2363,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned/crew)
-"Kp" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/on{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
 /area/shuttle/abandoned/crew)
 "Kw" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -2408,16 +2398,9 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/abandoned/bar)
-"Lz" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/visible,
-/turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned/cargo)
 "LA" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned/engine)
@@ -2441,19 +2424,6 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned/crew)
-"Mg" = (
-/obj/effect/spawner/structure/window/plastitanium,
-/obj/machinery/door/poddoor{
-	id = "whiteship_windows"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating,
 /area/shuttle/abandoned/crew)
 "Mz" = (
 /obj/effect/turf_decal/stripes/line{
@@ -2505,6 +2475,12 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)
+"MK" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/abandoned/cargo)
 "MO" = (
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/structure/shuttle/engine/heater{
@@ -2523,7 +2499,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/turf/open/floor/light/colour_cycle/dancefloor_a,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/abandoned/crew)
 "Oy" = (
 /obj/structure/closet/emcloset/anchored,
@@ -2562,6 +2538,20 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/bar)
+"Qa" = (
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4";
+	tag = ""
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/engine)
 "Qk" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2673,25 +2663,12 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)
-"TW" = (
-/obj/machinery/power/tracker,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plasteel/airless/solarpanel,
-/area/shuttle/abandoned/engine)
-"TX" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/sign/poster/official/obey{
-	pixel_y = 32
-	},
-/turf/open/floor/wood,
-/area/shuttle/abandoned/crew)
 "Ug" = (
 /obj/machinery/computer/shuttle/white_ship{
-	dir = 8
+	dir = 8;
+	shuttleId = "djchu";
+	possible_destinations = "whiteship_away;whiteship_home;whiteship_z4;whiteship_lavaland;spacebar;djchu_custom";
+	name = "shuttle console"
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -2720,15 +2697,6 @@
 /obj/item/storage/belt/utility/full/engi,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)
-"Uo" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned/cargo)
 "Uw" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/rack,
@@ -2766,6 +2734,19 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/medbay)
+"VA" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable,
+/obj/machinery/power/solar{
+	glass_type = /obj/item/stack/sheet/plastitaniumglass
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/shuttle/abandoned/engine)
 "VQ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2791,22 +2772,19 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/crew)
-"Wd" = (
-/obj/machinery/light/small{
-	dir = 1
+"Wf" = (
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/abandoned/engine)
+"Ws" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/visible,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/cargo)
-"Wf" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/turf/open/floor/plasteel,
-/area/shuttle/abandoned/bar)
 "WH" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/machinery/advanced_airlock_controller{
@@ -2814,6 +2792,30 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/abandoned/crew)
+"Xd" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	glass_type = /obj/item/stack/sheet/plastitaniumglass
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/shuttle/abandoned/engine)
+"Xj" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/solar{
+	glass_type = /obj/item/stack/sheet/plastitaniumglass
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/shuttle/abandoned/engine)
 "Yd" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -2876,12 +2878,12 @@
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)
 "Zs" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/shuttle/engine/heater{
+	dir = 8
 	},
-/obj/effect/turf_decal/tile/bar,
-/turf/open/floor/plasteel,
-/area/shuttle/abandoned/bar)
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/engine)
 "ZI" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2906,9 +2908,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/medbay)
+"ZK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/shuttle/abandoned/crew)
 
 (1,1,1) = {"
-be
+Xd
 aa
 aa
 aa
@@ -2924,50 +2930,50 @@ aa
 aa
 aa
 aa
-be
+Xd
 "}
 (2,1,1) = {"
-Cb
+be
 aa
 aa
 aa
 ah
-aK
-aK
+LA
+LA
 ah
-TW
+JK
 ah
-aK
-aK
+LA
+LA
 ah
 aa
 aa
 aa
-Cb
+be
 "}
 (3,1,1) = {"
-HM
-aI
-LA
-LA
-aI
+Xj
+ai
 EV
 EV
-aI
-dp
-aI
-EV
-nr
-aI
-LA
-LA
-aI
-bf
-"}
-(4,1,1) = {"
-kW
 ai
 az
+az
+ai
+Wf
+ai
+az
+Qa
+ai
+EV
+EV
+ai
+VA
+"}
+(4,1,1) = {"
+fG
+aI
+Zs
 MO
 HV
 Co
@@ -2979,13 +2985,13 @@ MD
 cB
 xS
 gl
-az
-ai
-kW
+Zs
+aI
+fG
 "}
 (5,1,1) = {"
-kW
-ai
+fG
+aI
 YO
 Mz
 fd
@@ -2999,12 +3005,12 @@ VQ
 Zp
 Hi
 dA
-ai
-kW
+aI
+fG
 "}
 (6,1,1) = {"
-kW
-ai
+fG
+aI
 sW
 zM
 Ci
@@ -3018,13 +3024,13 @@ Ul
 TH
 fQ
 cS
-ai
-kW
+aI
+fG
 "}
 (7,1,1) = {"
-JF
-ai
-ai
+cD
+aI
+aI
 Jr
 bm
 bB
@@ -3036,9 +3042,9 @@ bB
 bB
 bm
 QE
-ai
-ai
-JF
+aI
+aI
+cD
 "}
 (8,1,1) = {"
 cw
@@ -3122,13 +3128,13 @@ sD
 Ap
 CA
 aO
-bF
 NX
 bF
+NX
 jz
 xy
 aP
-ab
+ZK
 nQ
 sX
 ma
@@ -3137,7 +3143,7 @@ SY
 "}
 (13,1,1) = {"
 cw
-TX
+bi
 cw
 Go
 Wc
@@ -3161,11 +3167,11 @@ cw
 kM
 cw
 bH
-ud
-ec
-nV
-ec
 bh
+ec
+ac
+ec
+Ip
 cF
 cR
 HJ
@@ -3179,13 +3185,13 @@ cw
 cw
 LS
 cw
-wA
+il
 cw
 Ah
-Mg
+aK
 Ah
 cw
-ac
+bf
 iM
 ZI
 iM
@@ -3201,7 +3207,7 @@ br
 cw
 br
 aa
-Kp
+EL
 aa
 br
 iM
@@ -3250,42 +3256,42 @@ vm
 iM
 "}
 (19,1,1) = {"
-ae
+ar
 ap
-ae
+ar
 py
-ae
-ae
+ar
+ar
 ax
 aa
 aa
 aa
 cx
-cy
+kW
 cW
 Qk
-cy
+kW
 dU
-cy
+kW
 "}
 (20,1,1) = {"
-ae
 ar
+ab
 Yd
 CC
 bd
 bw
-ae
+ar
 aa
 aa
 aa
-cy
+kW
 cG
 NT
 Dl
 Yf
 dV
-cy
+kW
 "}
 (21,1,1) = {"
 Lm
@@ -3307,68 +3313,68 @@ dW
 cz
 "}
 (22,1,1) = {"
-ae
 ar
+ab
 bg
 bg
 bu
 bK
-ae
+ar
 aa
 aa
 aa
-cy
+kW
 cI
 vM
 ny
 tn
 dX
-cy
+kW
 "}
 (23,1,1) = {"
-ae
+ar
 as
 bg
 bg
 bg
 bL
-ae
+ar
 aa
 aa
 aa
-cy
+kW
 cJ
 da
 dC
 dK
 dY
-cy
+kW
 "}
 (24,1,1) = {"
-ae
-Wf
-Zs
+ar
+sk
+wA
 bg
-Zs
+wA
 au
-ae
+ar
 aa
 aa
 aa
-cy
-Uo
+kW
+wt
 db
 dv
 kN
 cK
-cy
+kW
 "}
 (25,1,1) = {"
 Lm
 av
-Zs
+wA
 bg
-Zs
+wA
 bN
 bI
 aa
@@ -3378,46 +3384,46 @@ ed
 cL
 dy
 dw
-FP
+MK
 dZ
 cz
 "}
 (26,1,1) = {"
-ae
+ar
 aw
-Zs
+wA
 bg
-Zs
+wA
 bO
-ae
+ar
 aa
 aa
 aa
-cy
+kW
 cM
 dy
 dx
-Lz
+Ws
 ea
-cy
+kW
 "}
 (27,1,1) = {"
 ag
-ae
-rn
+ar
+so
 bg
-JK
 ae
+ar
 ag
 aa
 aa
 aa
 cA
-cy
-Wd
+kW
+JF
 dy
-bi
 cy
+kW
 cA
 "}
 (28,1,1) = {"
