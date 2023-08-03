@@ -783,7 +783,6 @@
 /obj/item/pickaxe,
 /obj/item/storage/box/lights/mixed,
 /obj/item/mining_scanner,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)
 "cW" = (
