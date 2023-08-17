@@ -281,23 +281,11 @@
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/bar)
 "bh" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
 /obj/machinery/status_display/shuttle{
 	shuttle_id = "djchu";
 	pixel_y = -32
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "bi" = (
 /obj/machinery/light/small{
@@ -354,9 +342,9 @@
 "br" = (
 /obj/machinery/status_display/shuttle{
 	shuttle_id = "djchu";
-	pixel_y = -32
+	pixel_y = 32
 	},
-/turf/open/floor/light/colour_cycle/dancefloor_b,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "bu" = (
 /obj/structure/chair,
@@ -1919,11 +1907,24 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/cargo)
 "ws" = (
-/obj/machinery/porta_turret/syndicate/energy/raven{
-	dir = 8
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/abandoned/bridge)
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/abandoned/crew)
 "wt" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -1957,16 +1958,6 @@
 	dir = 6
 	},
 /turf/open/floor/light/colour_cycle/dancefloor_b,
-/area/shuttle/abandoned/crew)
-"xM" = (
-/obj/machinery/airalarm/all_access{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "xS" = (
 /obj/machinery/portable_atmospherics/canister/air,
@@ -2301,11 +2292,14 @@
 /turf/open/floor/engine/air,
 /area/shuttle/abandoned/engine)
 "Ip" = (
-/obj/machinery/status_display/shuttle{
-	shuttle_id = "djchu";
-	pixel_y = 32
+/obj/machinery/airalarm/all_access{
+	dir = 8;
+	pixel_x = 24
 	},
-/turf/open/floor/light/colour_cycle/dancefloor_b,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "IY" = (
 /obj/machinery/door/airlock/medical{
@@ -2772,6 +2766,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/medbay)
+"Vv" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 8
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/shuttle/abandoned/bridge)
 "VA" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -2975,7 +2975,7 @@ be
 aa
 aa
 aa
-ws
+Vv
 LA
 LA
 ah
@@ -2983,7 +2983,7 @@ JK
 ah
 LA
 LA
-ws
+Vv
 aa
 aa
 aa
@@ -3126,7 +3126,7 @@ iM
 cw
 ak
 aD
-bh
+ws
 cw
 bB
 bA
@@ -3225,9 +3225,9 @@ LS
 cw
 il
 ec
-ec
+jz
 ac
-ec
+jz
 ec
 bf
 iM
@@ -3243,11 +3243,11 @@ cw
 zt
 cw
 cw
-Ip
+br
 ec
 ac
 ec
-br
+bh
 iM
 iM
 Vc
@@ -3263,9 +3263,9 @@ jY
 Cy
 af
 ec
-ec
+jz
 ac
-ec
+jz
 ec
 ee
 wC
@@ -3281,7 +3281,7 @@ cw
 Kw
 pl
 cw
-xM
+Ip
 ec
 ac
 ec
