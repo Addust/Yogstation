@@ -26,18 +26,17 @@
 /area/shuttle/abandoned/bar)
 "af" = (
 /obj/effect/spawner/structure/window/plastitanium,
-/obj/machinery/door/poddoor{
-	id = "whiteship_windows"
-	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/crew)
 "ag" = (
-/obj/machinery/porta_turret/centcom_shuttle/weak{
-	dir = 4
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
 	},
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/abandoned/bar)
+/obj/machinery/light,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/shuttle/abandoned/crew)
 "ah" = (
 /turf/closed/wall/r_wall/syndicate,
 /area/shuttle/abandoned/engine)
@@ -158,6 +157,10 @@
 /obj/item/reagent_containers/food/snacks/rationpack,
 /obj/item/reagent_containers/food/snacks/rationpack,
 /obj/item/reagent_containers/food/snacks/rationpack,
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_x = 32
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/bar)
 "ax" = (
@@ -266,7 +269,7 @@
 "bf" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/effect/turf_decal/stripes/white/line{
-	dir = 8
+	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/crew)
@@ -278,11 +281,23 @@
 /turf/open/floor/plasteel,
 /area/shuttle/abandoned/bar)
 "bh" = (
-/obj/machinery/airalarm/all_access{
-	dir = 8;
-	pixel_x = 24
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/light/colour_cycle/dancefloor_a,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel,
 /area/shuttle/abandoned/crew)
 "bi" = (
 /obj/machinery/light/small{
@@ -290,6 +305,10 @@
 	},
 /obj/structure/sign/poster/official/obey{
 	pixel_y = 32
+	},
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_y = -32
 	},
 /turf/open/floor/wood,
 /area/shuttle/abandoned/crew)
@@ -333,7 +352,11 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/bridge)
 "br" = (
-/turf/closed/wall/r_wall/syndicate,
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_y = -32
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/abandoned/crew)
 "bu" = (
 /obj/structure/chair,
@@ -393,7 +416,11 @@
 /obj/item/ammo_box/m44,
 /obj/item/clothing/head/HoS/beret/syndicate,
 /obj/item/clothing/head/HoS/syndicate,
-/obj/item/clothing/suit/space/hardsuit/syndi/elite,
+/obj/item/clothing/suit/space/hardsuit/syndi/elite{
+	name = "DJ's hardsuit";
+	alt_desc = "A DJ's elite hardsuit, with integrated audio dampers. It's in combat mode.";
+	desc = "A DJ's elite hardsuit, with integrated audio dampers. It's in EVA mode."
+	},
 /obj/item/clothing/mask/gas/syndicate,
 /obj/item/tank/internals/oxygen,
 /obj/item/clothing/accessory/medal/gold{
@@ -405,6 +432,10 @@
 	desc = "The headset of the DJ. Protects ears from flashbangs."
 	},
 /obj/item/storage/toolbox/syndicate/real,
+/obj/item/clothing/neck/cloak/nukie{
+	name = "DJ's shawl";
+	desc = "A custom-made shawl with ablative properties, based off that of a Syndicate squad leader."
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/bridge)
 "bD" = (
@@ -573,7 +604,8 @@
 	y_offset = -8;
 	shuttleId = "djchu";
 	shuttlePortId = "djchu_custom";
-	name = "navigation computer"
+	name = "navigation computer";
+	desc = "Used to designate a precise transit location for the Disco Ship."
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -622,11 +654,11 @@
 /turf/open/floor/plating,
 /area/shuttle/abandoned/cargo)
 "cA" = (
-/obj/machinery/porta_turret/centcom_shuttle/weak{
+/obj/machinery/porta_turret/syndicate/energy/raven{
 	dir = 4
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/abandoned/cargo)
+/area/shuttle/abandoned/bridge)
 "cB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -983,6 +1015,10 @@
 /obj/machinery/sleeper{
 	dir = 8
 	},
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_x = 32
+	},
 /turf/open/floor/plasteel/white/side{
 	dir = 4
 	},
@@ -1148,6 +1184,10 @@
 /obj/machinery/atmospherics/pipe/simple/supplymain/visible{
 	dir = 9
 	},
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_x = 32
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/cargo)
 "ec" = (
@@ -1165,9 +1205,6 @@
 /area/shuttle/abandoned/cargo)
 "ee" = (
 /obj/effect/spawner/structure/window/plastitanium,
-/obj/machinery/door/poddoor{
-	id = "whiteship_windows"
-	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
@@ -1368,7 +1405,7 @@
 	anchored = 1
 	},
 /obj/effect/turf_decal/stripes/white/line{
-	dir = 8
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/crew)
@@ -1882,8 +1919,11 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/abandoned/cargo)
 "ws" = (
+/obj/machinery/porta_turret/syndicate/energy/raven{
+	dir = 8
+	},
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/abandoned/medbay)
+/area/shuttle/abandoned/bridge)
 "wt" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -1917,6 +1957,16 @@
 	dir = 6
 	},
 /turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/shuttle/abandoned/crew)
+"xM" = (
+/obj/machinery/airalarm/all_access{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/abandoned/crew)
 "xS" = (
 /obj/machinery/portable_atmospherics/canister/air,
@@ -2251,11 +2301,11 @@
 /turf/open/floor/engine/air,
 /area/shuttle/abandoned/engine)
 "Ip" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = 24
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "djchu";
+	pixel_y = 32
 	},
-/turf/open/floor/light/colour_cycle/dancefloor_a,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/abandoned/crew)
 "IY" = (
 /obj/machinery/door/airlock/medical{
@@ -2652,7 +2702,8 @@
 	dir = 8;
 	shuttleId = "djchu";
 	possible_destinations = "whiteship_away;whiteship_home;whiteship_z4;whiteship_lavaland;spacebar;djchu_custom";
-	name = "shuttle console"
+	name = "shuttle console";
+	desc = "Used to control the Disco Ship."
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -2924,7 +2975,7 @@ be
 aa
 aa
 aa
-ah
+ws
 LA
 LA
 ah
@@ -2932,7 +2983,7 @@ JK
 ah
 LA
 LA
-ah
+ws
 aa
 aa
 aa
@@ -3075,7 +3126,7 @@ iM
 cw
 ak
 aD
-CA
+bh
 cw
 bB
 bA
@@ -3154,11 +3205,11 @@ cw
 kM
 cw
 bH
-bh
+ec
 ec
 ac
 ec
-Ip
+ec
 cF
 cR
 HJ
@@ -3173,11 +3224,11 @@ cw
 LS
 cw
 il
-cw
-Ah
-aK
-Ah
-cw
+ec
+ec
+ac
+ec
+ec
 bf
 iM
 ZI
@@ -3190,15 +3241,15 @@ cw
 WH
 cw
 zt
-br
 cw
-br
-aa
-EL
-aa
+cw
+Ip
+ec
+ac
+ec
 br
 iM
-ws
+iM
 Vc
 iM
 Oy
@@ -3211,11 +3262,11 @@ QC
 jY
 Cy
 af
-aa
-aa
-aa
-aa
-aa
+ec
+ec
+ac
+ec
+ec
 ee
 wC
 fp
@@ -3230,11 +3281,11 @@ cw
 Kw
 pl
 cw
-aa
-aa
-aa
-aa
-aa
+xM
+ec
+ac
+ec
+ag
 iM
 Uw
 Ea
@@ -3249,11 +3300,11 @@ ar
 py
 ar
 ar
-ax
-aa
-aa
-aa
-cx
+cw
+Ah
+aK
+Ah
+cw
 kW
 cW
 Qk
@@ -3270,7 +3321,7 @@ bd
 bw
 ar
 aa
-aa
+EL
 aa
 kW
 cG
@@ -3395,13 +3446,13 @@ ea
 kW
 "}
 (27,1,1) = {"
-ag
+cA
 ar
 so
 bg
 ae
 ar
-ag
+cA
 aa
 aa
 aa
