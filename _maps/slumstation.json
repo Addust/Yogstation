@@ -1,0 +1,11 @@
+{
+	"map_name": "Asteroid Outpost",
+	"internal_name": "Slum Station",
+	"map_path": "map_files/slum",
+	"map_file": "SlumStation.dmm",
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"emergency": "emergency_box"
+	}
+}
