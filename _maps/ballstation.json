@@ -2,9 +2,18 @@
     "map_name": "BallStation",
     "map_path": "map_files/BallStation",
     "map_file": "BallStation.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
     "shuttles": {
 	    "cargo": "cargo_box",
 	    "ferry": "ferry_fancy",
 	    "emergency": "emergency_box"
-    }
+    },
+	"traits": [
+		{
+			"Baseturf": "/turf/open/water",
+			"Linkage": null,
+			"Gravity": true
+		}
+	]
 }

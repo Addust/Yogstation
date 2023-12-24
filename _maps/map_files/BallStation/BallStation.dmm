@@ -254,9 +254,6 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /turf/open/floor/wood,
 /area/bridge)
 "aSl" = (
@@ -312,12 +309,6 @@
 	},
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
-"bbG" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/wall/mineral/wood,
-/area/medical/sleeper)
 "bbM" = (
 /turf/open/floor/wood,
 /area/ballstation)
@@ -403,7 +394,12 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "bnS" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -545,7 +541,12 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "bPB" = (
 /obj/structure/table/wood,
@@ -660,11 +661,11 @@
 /turf/open/floor/fakepit,
 /area/bridge/showroom/corporate)
 "clu" = (
-/obj/structure/railing{
-	dir = 6
+/obj/structure/chair{
+	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
+/area/ballstation)
 "cof" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig Control";
@@ -790,7 +791,12 @@
 /obj/machinery/door/window/eastleft{
 	name = "Turbine Maintenance"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/security/execution/education)
 "cES" = (
 /obj/effect/turf_decal/trimline/secred/filled/line/lower,
@@ -901,11 +907,14 @@
 /turf/open/floor/plating,
 /area/crew_quarters/dorms)
 "cUc" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/whiteship/box)
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ballstation)
 "cUA" = (
 /obj/machinery/computer/shuttle/labor,
 /obj/effect/turf_decal/trimline/secred/filled/line/lower{
@@ -924,9 +933,11 @@
 	pixel_y = -8;
 	icon_state = "holograph_off"
 	},
-/turf/open/floor/plating/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	desc = "A sheet of solid ice. Looks slippery. Why has this not melted?"
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
 	},
 /area/ballstation/exterior)
 "cXD" = (
@@ -1039,12 +1050,6 @@
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
-"dsY" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/wall/r_wall,
-/area/ruin/powered/shuttle)
 "dts" = (
 /obj/structure/fans/tiny/invisible,
 /turf/closed/wall/r_wall,
@@ -1109,13 +1114,6 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/security/armory)
-"dFR" = (
-/obj/structure/statue/cheese/cheesus{
-	pixel_y = 8;
-	desc = "How?"
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
 "dGe" = (
 /obj/effect/turf_decal/trimline/secred/filled/corner/lower,
 /obj/effect/turf_decal/trimline/secred/filled/corner/lower{
@@ -1149,7 +1147,12 @@
 	pixel_y = 8
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "dNY" = (
 /obj/machinery/door/airlock/security/glass{
@@ -1197,12 +1200,6 @@
 	},
 /turf/open/floor/wood,
 /area/ballstation)
-"dXW" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/wall/r_wall,
-/area/security/execution/education)
 "dZr" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -1322,12 +1319,6 @@
 /obj/structure/chair/wood/wings,
 /turf/open/floor/carpet/exoticpurple,
 /area/crew_quarters/kitchen)
-"exK" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/wall/mineral/wood,
-/area/medical/surgery)
 "exP" = (
 /obj/structure/fans/tiny/invisible,
 /turf/closed/indestructible/syndicate{
@@ -1389,12 +1380,6 @@
 	},
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
-"eEJ" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/open/floor/wood,
-/area/crew_quarters/bar)
 "eFN" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 1
@@ -1624,11 +1609,11 @@
 /turf/open/floor/plasteel,
 /area/bridge/showroom/corporate)
 "ftQ" = (
-/obj/structure/railing{
-	dir = 5
+/obj/structure/chair{
+	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
+/area/ballstation)
 "fwh" = (
 /obj/effect/light_emitter{
 	light_power = 50;
@@ -1637,9 +1622,11 @@
 	set_cap = 50;
 	set_luminosity = 50
 	},
-/turf/open/floor/plating/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	desc = "A sheet of solid ice. Looks slippery. Why has this not melted?"
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
 	},
 /area/ballstation/exterior)
 "fwp" = (
@@ -1934,12 +1921,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/education)
-"gHn" = (
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
 "gIm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -1972,9 +1953,6 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/auto_name/north,
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /turf/open/floor/plasteel,
 /area/engine/foyer)
 "gNV" = (
@@ -2153,9 +2131,6 @@
 /area/crew_quarters/kitchen)
 "hwy" = (
 /obj/effect/turf_decal/trimline/blue/filled/line/lower,
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
 "hwB" = (
@@ -2219,15 +2194,17 @@
 /turf/open/floor/engine/plasma,
 /area/engine/engineering)
 "hKa" = (
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
-"hMh" = (
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#e8eaff"
+/obj/structure/sign/logo{
+	icon_state = "nanotrasen_sign3"
 	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/whiteship/box)
+/turf/closed/wall/mineral/wood,
+/area/janitor)
+"hMh" = (
+/obj/structure/sign/logo{
+	icon_state = "nanotrasen_sign5"
+	},
+/turf/closed/wall/mineral/wood,
+/area/janitor)
 "hMi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -2292,7 +2269,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "hSE" = (
 /obj/structure/closet/secure_closet/warden,
@@ -2305,13 +2287,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
-"hSW" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/security/brig)
 "hTE" = (
 /turf/open/floor/wood,
 /area/bridge)
@@ -2471,19 +2446,6 @@
 "ilt" = (
 /turf/closed/wall/r_wall,
 /area/tcommsat/server)
-"imv" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/indestructible{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "riverwater_motion";
-	color = "#265db5";
-	name = "very deep water";
-	desc = "YOU SHALL NOT PASS!";
-	opacity = 0
-	},
-/area/ballstation/exterior)
 "inn" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/machinery/light,
@@ -2613,7 +2575,7 @@
 /area/ballstation)
 "iJM" = (
 /obj/machinery/nuclearbomb/beer{
-	r_code = "72832";
+	r_code = "46174";
 	name = "Rapid Alcohol Distribution System Projector Unit";
 	desc = "A nuclear bomb casing refitted for the Rapid Alcohol Distribution System. The reason it was designed in the first place remains unknown. It has a drain valve on the side."
 	},
@@ -2679,9 +2641,11 @@
 /turf/open/floor/wood,
 /area/crew_quarters/dorms)
 "iUw" = (
-/turf/open/floor/plating/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	desc = "A sheet of solid ice. Looks slippery. Why has this not melted?"
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
 	},
 /area/ballstation/exterior)
 "iVj" = (
@@ -2883,9 +2847,6 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
-"jFt" = (
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/whiteship/box)
 "jFD" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2898,12 +2859,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/foyer)
-"jFR" = (
-/obj/machinery/door/airlock/grunge{
-	name = "Tugboat"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle)
 "jGG" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2958,7 +2913,7 @@
 /area/ballstation/exterior)
 "jIz" = (
 /obj/machinery/nuclearbomb/beer{
-	r_code = "72832";
+	r_code = "46174";
 	name = "Rapid Alcohol Distribution System Projector Unit";
 	desc = "A nuclear bomb casing refitted for the Rapid Alcohol Distribution System. The reason it was designed in the first place remains unknown. It has a drain valve on the side."
 	},
@@ -3238,12 +3193,6 @@
 /obj/effect/turf_decal/trimline/purple/filled/line/lower,
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
-"kEi" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
 "kGp" = (
 /obj/effect/turf_decal/trimline/secred/filled/corner/lower,
 /obj/effect/turf_decal/trimline/secred/filled/corner/lower{
@@ -3263,7 +3212,12 @@
 /area/crew_quarters/dorms)
 "kOg" = (
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "kRD" = (
 /obj/structure/window/plasma/reinforced/spawner/west,
@@ -3326,9 +3280,14 @@
 /turf/open/floor/wood,
 /area/ballstation)
 "lmg" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle)
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ballstation)
 "lqq" = (
 /obj/effect/turf_decal/trimline/secred/filled/line/lower,
 /obj/structure/table/reinforced,
@@ -3350,15 +3309,17 @@
 /area/ballstation)
 "lrE" = (
 /obj/machinery/ore_silo,
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /turf/open/floor/circuit/green/anim,
 /area/ai_monitored/nuke_storage)
 "lrT" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "ltk" = (
 /obj/structure/cable{
@@ -3377,10 +3338,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
-"lwV" = (
-/obj/machinery/gravity_generator/main/station,
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/whiteship/box)
 "lxF" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -3442,12 +3399,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/security)
-"lCj" = (
-/obj/structure/railing{
-	dir = 10
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
 "lDx" = (
 /obj/machinery/droneDispenser/preloaded{
 	name = "masquerade equipment dispenser";
@@ -3493,13 +3444,6 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/security/armory)
-"lOO" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/whiteship/box)
 "lPA" = (
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
@@ -3523,12 +3467,6 @@
 	},
 /turf/open/floor/wood,
 /area/ballstation)
-"lUe" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/wall/r_wall,
-/area/security/warden)
 "lVT" = (
 /obj/effect/turf_decal/trimline/blue/filled/line/lower{
 	dir = 8
@@ -3549,9 +3487,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/open/floor/plating/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	desc = "A sheet of solid ice. Looks slippery. Why has this not melted?"
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
 	},
 /area/ballstation/exterior)
 "lXu" = (
@@ -3789,10 +3729,9 @@
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "mOt" = (
-/turf/closed/indestructible/fakedoor{
-	name = "Relay Ship Access"
-	},
-/area/ruin/space/has_grav/whiteship/box)
+/obj/structure/sign/logo,
+/turf/closed/wall/mineral/wood,
+/area/janitor)
 "mSA" = (
 /obj/item/fishingrod/collapsible/miningmedic,
 /obj/structure/closet/emcloset/anchored,
@@ -3984,9 +3923,11 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "nLD" = (
-/turf/open/floor/plating/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	desc = "A sheet of solid ice. Looks slippery. Why has this not melted?"
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
 	},
 /area/ballstation)
 "nNc" = (
@@ -4096,7 +4037,12 @@
 	dir = 4;
 	layer = 2.9
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "oij" = (
 /obj/machinery/door/airlock/engineering/glass{
@@ -4110,9 +4056,6 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/auto_name/north,
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "ojx" = (
@@ -4212,8 +4155,7 @@
 /turf/open/floor/wood,
 /area/ballstation)
 "oxY" = (
-/obj/structure/chair,
-/turf/open/floor/wood,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/ballstation)
 "oyU" = (
 /obj/structure/cable{
@@ -4270,12 +4212,6 @@
 	},
 /turf/open/floor/plating,
 /area/engine/engine_smes)
-"oGa" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle)
 "oJT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -4363,17 +4299,14 @@
 /turf/open/floor/wood,
 /area/ballstation)
 "oUi" = (
-/obj/structure/railing{
-	dir = 9
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/ballstation)
 "oWH" = (
-/obj/structure/railing/corner{
-	dir = 4
+/obj/structure/sign/logo{
+	icon_state = "nanotrasen_sign2"
 	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
+/turf/closed/wall/mineral/wood,
+/area/janitor)
 "oYZ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor/border_only,
@@ -4388,9 +4321,11 @@
 	dir = 8;
 	max_integrity = 350
 	},
-/turf/open/floor/plating/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	desc = "A sheet of solid ice. Looks slippery. Why has this not melted?"
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
 	},
 /area/ballstation/exterior)
 "pbq" = (
@@ -4418,14 +4353,6 @@
 	},
 /turf/open/floor/wood,
 /area/ballstation)
-"pde" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/open/floor/engine{
-	name = "Holodeck Projector Floor"
-	},
-/area/holodeck/rec_center)
 "pgt" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4500,7 +4427,7 @@
 /area/ballstation)
 "ppo" = (
 /obj/machinery/nuclearbomb/beer{
-	r_code = "72832";
+	r_code = "46174";
 	name = "Rapid Alcohol Distribution System Projector Unit";
 	desc = "A nuclear bomb casing refitted for the Rapid Alcohol Distribution System. The reason it was designed in the first place remains unknown. It has a drain valve on the side."
 	},
@@ -4551,11 +4478,12 @@
 /turf/open/floor/wood,
 /area/bridge/meeting_room)
 "pAX" = (
-/obj/structure/railing/corner{
-	dir = 8
+/obj/machinery/door/airlock/grunge{
+	name = "Tugboat";
+	req_access_txt = "19"
 	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/shuttle)
 "pDf" = (
 /obj/structure/table/wood/fancy,
 /obj/effect/spawner/lootdrop/three_course_meal,
@@ -4762,9 +4690,9 @@
 /turf/open/floor/wood,
 /area/bridge)
 "qoh" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Private Dining Room";
-	req_access_txt = "101"
+/obj/machinery/door/password{
+	password = "Chuwu";
+	name = "Private Dining Room"
 	},
 /turf/open/floor/carpet/exoticpurple,
 /area/crew_quarters/kitchen)
@@ -4862,7 +4790,12 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "qRG" = (
 /obj/structure/disposalpipe/segment{
@@ -4903,11 +4836,11 @@
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "qYS" = (
-/obj/structure/railing{
-	dir = 4
+/obj/structure/sign/logo{
+	icon_state = "nanotrasen_sign4"
 	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
+/turf/closed/wall/mineral/wood,
+/area/janitor)
 "rcq" = (
 /obj/effect/turf_decal/trimline/darkblue/filled/line/lower{
 	dir = 10
@@ -4981,9 +4914,6 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/bridge/showroom/corporate)
 "rrZ" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	icon_state = "no";
 	name = "invalid icon booze dispenser scrubber";
@@ -5126,7 +5056,12 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
+	},
 /area/ballstation/exterior)
 "rOU" = (
 /obj/machinery/door/airlock/grunge{
@@ -5292,12 +5227,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/education)
-"sub" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/wall/mineral/wood,
-/area/crew_quarters/bar/atrium)
 "syH" = (
 /obj/machinery/telecomms/processor/preset_three,
 /turf/open/floor/circuit/green/telecomms/mainframe,
@@ -5323,8 +5252,11 @@
 /turf/open/floor/plasteel/dark,
 /area/security/execution/education)
 "sLb" = (
-/turf/closed/indestructible/riveted,
-/area/ruin/space/has_grav/whiteship/box)
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/ballstation)
 "sMu" = (
 /obj/machinery/telecomms/processor/preset_four,
 /turf/open/floor/circuit/green/telecomms/mainframe,
@@ -5380,12 +5312,6 @@
 	},
 /turf/open/floor/plating/asteroid/basalt,
 /area/bridge/showroom/corporate)
-"sWn" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/open/floor/wood,
-/area/bridge/meeting_room)
 "sYo" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	icon_state = "no";
@@ -5603,10 +5529,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/bridge/meeting_room)
-"tGY" = (
-/obj/structure/railing,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
 "tIN" = (
 /obj/machinery/light{
 	dir = 8
@@ -6395,9 +6317,11 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plating/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	desc = "A sheet of solid ice. Looks slippery. Why has this not melted?"
+/turf/open/floor/plating{
+	icon = 'icons/turf/floors/ice_turf.dmi';
+	icon_state = "unsmooth";
+	name = "ice";
+	desc = "Cold ice. How hasn't it melted?"
 	},
 /area/crew_quarters/bar)
 "wij" = (
@@ -6406,11 +6330,11 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
 "wjI" = (
-/obj/structure/railing{
-	dir = 1
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/ballstation)
 "wjM" = (
 /obj/machinery/light,
 /turf/open/floor/wood,
@@ -6469,22 +6393,6 @@
 /obj/machinery/telecomms/processor/preset_two,
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/tcommsat/server)
-"wAU" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/open/floor/wood,
-/area/ballstation)
-"wAW" = (
-/obj/structure/railing/corner,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/whiteship/box)
-"wBa" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/open/floor/circuit/red/anim,
-/area/ai_monitored/security/armory)
 "wCE" = (
 /obj/structure/window/reinforced,
 /obj/structure/closet/secure_closet/personal/cabinet,
@@ -6690,9 +6598,6 @@
 /obj/structure/statue/resin/ashwalker{
 	desc = "A decently well done statue made of solid resin. There is a note on it bearing the markings 'Cybersun Salvage Corps', covered by an NT stamp."
 	},
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /turf/open/floor/plating/asteroid/basalt,
 /area/bridge/showroom/corporate)
 "xpL" = (
@@ -6731,9 +6636,6 @@
 /turf/open/floor/circuit/red/anim,
 /area/ai_monitored/security/armory)
 "xuw" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /obj/effect/turf_decal/trimline/secred/filled/line/lower,
 /obj/machinery/light,
 /obj/structure/cable{
@@ -6758,12 +6660,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
-"xyT" = (
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
-/turf/closed/wall/r_wall,
-/area/crew_quarters/kitchen)
 "xBi" = (
 /obj/effect/turf_decal/trimline/brown/filled/line/lower{
 	dir = 8
@@ -6891,7 +6787,7 @@
 /obj/structure/window/reinforced/spawner/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/nuclearbomb/beer{
-	r_code = "72832";
+	r_code = "46174";
 	name = "nuclear fission explosive";
 	desc = "On closer inspection, this is just another R.A.D.S projector unit. You're not sure why it's here."
 	},
@@ -6922,9 +6818,6 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/auto_name/north,
-/obj/effect/baseturf_helper{
-	baseturf = /turf/open/floor/plating/ice
-	},
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "yge" = (
@@ -8276,20 +8169,20 @@ aae
 aae
 aae
 aae
-oUi
-kEi
-kEi
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-kEi
-lCj
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aae
 aae
 aae
@@ -8532,22 +8425,6 @@ aae
 aae
 aae
 aae
-oUi
-pAX
-hKa
-sLb
-sLb
-jFt
-lOO
-jFt
-jFt
-jFt
-lOO
-jFt
-sLb
-sLb
-gHn
-lCj
 aae
 aae
 aae
@@ -8737,7 +8614,23 @@ aae
 aae
 aae
 aae
-imv
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aae
 aae
 aae
@@ -8788,23 +8681,23 @@ aae
 aae
 aae
 aae
-oUi
-pAX
-hKa
-hKa
-sLb
-jFt
-jFt
-jFt
-jFt
-jFt
-jFt
-jFt
-jFt
-jFt
-sLb
-hKa
-tGY
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aae
 aae
 aae
@@ -9044,24 +8937,24 @@ aae
 aae
 aae
 aae
-dFR
-wjI
-hKa
-hKa
-hKa
-mOt
-jFt
-jFt
-jFt
-jFt
-lwV
-jFt
-jFt
-jFt
-jFt
-mOt
-hKa
-tGY
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aae
 aae
 aae
@@ -9302,23 +9195,23 @@ aae
 aae
 aae
 aae
-ftQ
-oWH
-hKa
-hKa
-sLb
-jFt
-jFt
-jFt
-jFt
-jFt
-jFt
-cUc
-jFt
-jFt
-sLb
-hKa
-tGY
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aae
 aae
 aae
@@ -9560,22 +9453,22 @@ aae
 aae
 aae
 aae
-ftQ
-oWH
-hKa
-sLb
-sLb
-jFt
-hMh
-jFt
-jFt
-jFt
-hMh
-jFt
-sLb
-sLb
-wAW
-clu
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aae
 aae
 aae
@@ -9818,20 +9711,20 @@ aae
 aae
 aae
 aae
-ftQ
-qYS
-qYS
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-sLb
-qYS
-clu
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aae
 aae
 aae
@@ -10084,7 +9977,7 @@ aae
 aae
 aae
 aae
-imv
+aae
 aae
 aae
 aae
@@ -31025,8 +30918,8 @@ gwq
 gwq
 gwq
 gwq
-xyT
-sub
+gwq
+smE
 vWp
 qWO
 vWp
@@ -34094,7 +33987,7 @@ vsb
 tdA
 cHc
 hwy
-exK
+heQ
 etm
 jlR
 xaZ
@@ -34351,7 +34244,7 @@ tLO
 eHS
 cHc
 pqh
-bbG
+prS
 prS
 prS
 prS
@@ -35619,7 +35512,7 @@ iUw
 iUw
 iUw
 xaF
-pde
+jRF
 jRF
 jRF
 jRF
@@ -38480,7 +38373,7 @@ aSJ
 aSJ
 aSJ
 aSJ
-lUe
+aSJ
 aSJ
 aSJ
 aSJ
@@ -38725,7 +38618,7 @@ vet
 eRb
 eRb
 eRb
-sWn
+eRb
 pHT
 anr
 pAi
@@ -39017,6 +38910,11 @@ pni
 pni
 pni
 pni
+pni
+pni
+pni
+pni
+pni
 fwp
 jfU
 jfU
@@ -39037,11 +38935,6 @@ rHx
 jfU
 jfU
 idF
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -39273,6 +39166,11 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 ruJ
 wIq
 lHb
@@ -39296,11 +39194,6 @@ lHb
 qLt
 jfU
 idF
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -39529,17 +39422,22 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 ruJ
 wIq
 lHb
-wPA
-wPA
-wPA
-wPA
-wPA
-wPA
-wPA
-wPA
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
 wPA
 wPA
 bqZ
@@ -39555,11 +39453,6 @@ lHb
 qLt
 jfU
 idF
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -39763,7 +39656,7 @@ jaU
 vdw
 pMS
 ltq
-hSW
+pMS
 pMS
 mmn
 cgW
@@ -39786,17 +39679,22 @@ pni
 pni
 pni
 pni
+pni
+pni
+pni
+pni
+pni
 jGU
 lHb
-wPA
-wPA
-oGa
-wPA
-epm
-epm
-epm
-epm
-ayL
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
 wPA
 mwn
 otK
@@ -39814,11 +39712,6 @@ lHb
 qLt
 jfU
 idF
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -40000,7 +39893,7 @@ bbM
 bbM
 qqn
 bbM
-wAU
+bbM
 bbM
 bbM
 bbM
@@ -40043,17 +39936,22 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 dhw
 lHb
-dsY
-epm
-epm
-wPA
-xvr
-epm
-epm
-epm
-epm
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
 wPA
 fMt
 otK
@@ -40073,11 +39971,6 @@ lHb
 qLt
 jfU
 idF
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -40252,11 +40145,11 @@ cPu
 wxH
 iUw
 mZG
-oxY
 bbM
-oxY
+bbM
+bbM
 aOl
-oxY
+bbM
 bbM
 bbM
 bbM
@@ -40300,17 +40193,22 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 dhw
 lHb
-jFR
-epm
-epm
-jFR
-epm
-epm
-epm
-epm
-lmg
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
 wPA
 wPA
 wPA
@@ -40332,11 +40230,6 @@ lHb
 iTi
 lHb
 nyU
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aae
 aae
@@ -40509,11 +40402,11 @@ lDx
 wxH
 iUw
 mZG
-oxY
-bbM
-oxY
-qqn
-oxY
+clu
+clu
+clu
+lmg
+clu
 bbM
 jYX
 qaK
@@ -40557,22 +40450,27 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 dhw
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
 lHb
 wPA
 epm
 epm
-wPA
-xvr
 epm
-epm
-epm
-epm
-oGa
-epm
-epm
-epm
-epm
+ayL
 wPA
 qJm
 epm
@@ -40587,11 +40485,6 @@ lHb
 dca
 cYL
 ciH
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -40766,11 +40659,11 @@ wxH
 wxH
 iUw
 mZG
-oxY
-bbM
-oxY
-qqn
-oxY
+clu
+clu
+clu
+lmg
+clu
 bbM
 wZr
 hTE
@@ -40814,18 +40707,23 @@ pni
 pni
 pni
 pni
+pni
+pni
+pni
+pni
+pni
 jGU
 lHb
-wPA
-wPA
-kxj
-wPA
-epm
-epm
-epm
-epm
-epm
-epm
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+pAX
 epm
 epm
 kxj
@@ -40842,11 +40740,6 @@ lHb
 dca
 cYL
 ciH
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -41020,13 +40913,13 @@ jMR
 wxH
 apN
 keC
-rVm
+mOt
 iUw
 mZG
 oxY
-bbM
+oUi
 oxY
-qqn
+sLb
 oxY
 vJE
 udl
@@ -41071,17 +40964,22 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 azV
 kSJ
 lHb
-wPA
-wPA
-wPA
-wPA
-wPA
-wPA
-wPA
-wPA
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
+lHb
 wPA
 wPA
 wPA
@@ -41097,11 +40995,6 @@ lHb
 dca
 cYL
 ciH
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -41277,14 +41170,14 @@ jMR
 wxH
 jLk
 fro
-rVm
+oWH
 iUw
 mZG
+oUi
 oxY
-bbM
-oxY
-qqn
-oxY
+oUi
+wjI
+oUi
 bbM
 wZr
 hTE
@@ -41329,6 +41222,11 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 azV
 kSJ
 lHb
@@ -41352,11 +41250,6 @@ lHb
 dca
 cYL
 ciH
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -41534,13 +41427,13 @@ jMR
 wxH
 jzQ
 vfb
-rVm
+hKa
 fwh
 mZG
 oxY
-bbM
+oUi
 oxY
-qqn
+sLb
 oxY
 vJE
 wZr
@@ -41587,6 +41480,11 @@ pni
 pni
 pni
 pni
+pni
+pni
+pni
+pni
+pni
 hhe
 cYL
 cYL
@@ -41607,11 +41505,6 @@ mMI
 cYL
 cYL
 ciH
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -41791,14 +41684,14 @@ cEh
 wxH
 jLk
 fro
-rVm
+qYS
 iUw
 mZG
+oUi
 oxY
-bbM
-oxY
-qqn
-oxY
+oUi
+wjI
+oUi
 bbM
 wZr
 hTE
@@ -42048,13 +41941,13 @@ jMR
 wxH
 rVm
 ijh
-rVm
+hMh
 iUw
 mZG
 oxY
-bbM
+oUi
 oxY
-qqn
+sLb
 oxY
 vJE
 udl
@@ -42074,7 +41967,7 @@ vbS
 gjv
 ibv
 lcR
-wBa
+cPb
 nCc
 gjv
 iMS
@@ -42308,11 +42201,11 @@ bnf
 iUw
 iUw
 mZG
-oxY
-bbM
-oxY
-qqn
-oxY
+ftQ
+ftQ
+ftQ
+cUc
+ftQ
 bbM
 wZr
 hTE
@@ -42565,11 +42458,11 @@ bnf
 iUw
 iUw
 mZG
-oxY
-bbM
-oxY
-qqn
-oxY
+ftQ
+ftQ
+ftQ
+cUc
+ftQ
 bbM
 aDn
 dlD
@@ -42822,11 +42715,11 @@ bnf
 iUw
 iUw
 mZG
-oxY
 bbM
-oxY
+bbM
+bbM
 aOl
-oxY
+bbM
 bbM
 bbM
 bbM
@@ -43877,7 +43770,7 @@ lqq
 xlB
 xlB
 pNR
-dXW
+xlB
 dAB
 dAB
 dAB
@@ -44135,10 +44028,10 @@ xlB
 xlB
 xEv
 xlB
-pVm
-pVm
-pVm
-pVm
+iUw
+iUw
+iUw
+iUw
 iUw
 iUw
 iUw
@@ -44391,8 +44284,8 @@ xlB
 xlB
 cER
 ofD
-pVm
-pVm
+iUw
+iUw
 iUw
 iUw
 iUw
@@ -45887,7 +45780,7 @@ lxF
 gZu
 xTZ
 tXw
-eEJ
+fQS
 fQS
 fQS
 fQS
