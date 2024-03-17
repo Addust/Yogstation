@@ -12,11 +12,11 @@
 	environment_smash = ENVIRONMENT_SMASH_NONE
 	minimum_distance = 3
 	retreat_distance = 3
-	obj_damage = 0
+	obj_damage = 15
 	melee_damage_lower = 10
-	melee_damage_upper = 20
-	health = 1000
-	maxHealth = 1000
+	melee_damage_upper = 15
+	health = 250
+	maxHealth = 250
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	loot = list(/obj/effect/temp_visual/paperwiz_dying)
 	projectiletype = /obj/projectile/temp
@@ -24,6 +24,9 @@
 	attack_sound = 'sound/hallucinations/growl1.ogg'
 	footstep_type = FOOTSTEP_MOB_SHOE
 	var/list/copies = list()
+
+/obj/projectile/temp/paper_wizard
+	temperature = 150 //too stronk
 
 
 //Summon Ability
@@ -113,7 +116,7 @@
 			for(var/c in original.copies)
 				qdel(c)
 		for(var/mob/living/carbon/L in range(5,src))
-			L.apply_damage(40)
+			L.apply_damage(25)
 			to_chat(L, span_userdanger("The damaged clone showers you with paper cuts!"))
 		qdel(src)
 	else
@@ -131,6 +134,11 @@
 /mob/living/simple_animal/hostile/boss/paper_wizard/copy/examine(mob/user)
 	. = ..()
 	qdel(src) //I see through your ruse!
+	//This doesn't check for if the examiner is actually alive, so examining the copies, in ALL CASES, instantly kills them.
+	//I don't know WHO thought it was a good idea to not check for if the examiner's alive, because now ghosts can examine them and instantly evaporate them.
+	//While deadchat's residents are normally too malicious towards everything to do this, if their body is stuck in the paper wizard's den, they'll do it once they figure it out.
+	//I don't know how to make it check to see if the examiner's alive either (and i personally find it mildly funny that the spirits of the wizard's victims can crush their illusions)
+	//someone please fix this, thanks -addust
 
 //fancy effects
 /obj/effect/temp_visual/paper_scatter
