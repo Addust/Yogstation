@@ -1,0 +1,2940 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"bv" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"by" = (
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/turf/open/indestructible/boss,
+/area/ruin/unpowered/ash_walkers)
+"fk" = (
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/item/flashlight/lantern,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"fX" = (
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 4
+	},
+/obj/item/flashlight/lantern,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"gB" = (
+/turf/closed/indestructible/riveted/boss,
+/area/ruin/unpowered/ash_walkers)
+"gU" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 8
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"gW" = (
+/obj/structure/spawner/lavaland/legion,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"gZ" = (
+/obj/structure/stone_tile/surrounding_tile/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/center/cracked,
+/obj/structure/stone_tile/surrounding_tile,
+/obj/structure/stone_tile/surrounding_tile{
+	dir = 1
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 1
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"jK" = (
+/obj/structure/stone_tile/surrounding/cracked,
+/obj/effect/turf_decal/ramp_middle{
+	dir = 8
+	},
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"jL" = (
+/obj/effect/turf_decal/ramp_middle,
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"km" = (
+/obj/effect/turf_decal/ramp_corner{
+	dir = 4
+	},
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"mJ" = (
+/obj/structure/stone_tile/center/cracked{
+	pixel_y = 16
+	},
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"nV" = (
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/turf/open/indestructible/boss,
+/area/ruin/unpowered/ash_walkers)
+"oh" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/block/burnt{
+	dir = 4
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"on" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"qI" = (
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/ash_walkers)
+"qT" = (
+/obj/structure/stone_tile/block{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"rT" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"rU" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"si" = (
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"sl" = (
+/obj/structure/lavaland/ash_walker,
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"so" = (
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"tc" = (
+/turf/closed/mineral/volcanic/lava_land_surface/harder,
+/area/lavaland/surface/outdoors)
+"tq" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 1
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"tE" = (
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"tT" = (
+/obj/structure/necropolis_gate,
+/obj/structure/stone_tile/block{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/structure/fans/tiny/invisible,
+/obj/effect/decal/cleanable/blood,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"vV" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/obj/structure/stone_tile/surrounding/cracked{
+	dir = 4
+	},
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"vW" = (
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/item/flashlight/lantern,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"wY" = (
+/obj/structure/necropolis_gate,
+/obj/structure/stone_tile/block{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/structure/fans/tiny/invisible,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/ramp_middle{
+	dir = 1
+	},
+/turf/open/indestructible/boss,
+/area/ruin/unpowered/ash_walkers)
+"xs" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"xY" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 8
+	},
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"yF" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"Ax" = (
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"AF" = (
+/turf/closed/mineral/volcanic/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"AP" = (
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/turf/open/indestructible/boss,
+/area/ruin/unpowered/ash_walkers)
+"Bc" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"BN" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile,
+/obj/effect/decal/cleanable/blood,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"Cc" = (
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/machinery/the_singularitygen,
+/turf/open/indestructible/boss,
+/area/ruin/unpowered/ash_walkers)
+"Co" = (
+/obj/structure/stone_tile/surrounding_tile/cracked,
+/obj/structure/stone_tile/surrounding_tile/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/center,
+/obj/structure/stone_tile/surrounding_tile{
+	dir = 8
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 8
+	},
+/obj/effect/turf_decal/ramp_middle,
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"DP" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"Ep" = (
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/ash_walkers)
+"Ew" = (
+/obj/structure/stone_tile/surrounding_tile/cracked{
+	dir = 8
+	},
+/obj/structure/stone_tile/center,
+/obj/structure/stone_tile/surrounding_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/surrounding_tile{
+	dir = 4
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 1
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 8
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"EM" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 1
+	},
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"EX" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"Fm" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"Jt" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"LD" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 8
+	},
+/obj/structure/stone_tile/surrounding/cracked{
+	dir = 8
+	},
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"LJ" = (
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"LY" = (
+/obj/structure/stone_tile/surrounding/cracked{
+	dir = 1;
+	icon_state = "cracked_surrounding1"
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"Mb" = (
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/turf/open/indestructible/boss,
+/area/ruin/unpowered/ash_walkers)
+"Mp" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"Nn" = (
+/obj/structure/stone_tile/surrounding_tile/cracked,
+/obj/structure/stone_tile/center,
+/obj/structure/stone_tile/surrounding_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/surrounding_tile{
+	dir = 8
+	},
+/obj/effect/turf_decal/ramp_middle,
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"NT" = (
+/obj/structure/stone_tile/block/cracked,
+/obj/effect/turf_decal/ramp_middle,
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"OZ" = (
+/obj/structure/stone_tile/block{
+	dir = 4
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"PU" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"Qy" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"QZ" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"RR" = (
+/obj/effect/turf_decal/ramp_middle{
+	dir = 4
+	},
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"RZ" = (
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"St" = (
+/obj/structure/stone_tile,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/item/flashlight/lantern,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"SA" = (
+/turf/template_noop,
+/area/template_noop)
+"SQ" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/structure/stone_tile/block/burnt{
+	dir = 4
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"TL" = (
+/turf/closed/wall/mineral/wood,
+/area/ruin/unpowered/ash_walkers)
+"Ue" = (
+/obj/structure/necropolis_arch,
+/obj/structure/necropolis_gate,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/ash_walkers)
+"Vs" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"Xu" = (
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
+"Xy" = (
+/obj/effect/turf_decal/ramp_corner{
+	dir = 1
+	},
+/turf/open/indestructible/necropolis,
+/area/lavaland/surface/outdoors)
+"XY" = (
+/obj/structure/stone_tile/block{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/effect/turf_decal/ramp_middle{
+	dir = 1
+	},
+/turf/open/indestructible/necropolis,
+/area/ruin/unpowered/ash_walkers)
+"Ym" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/block,
+/turf/open/lava/smooth,
+/area/ruin/unpowered/ash_walkers)
+"Yv" = (
+/turf/open/lava/smooth,
+/area/lavaland/surface/outdoors)
+"ZB" = (
+/obj/structure/stone_tile/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile,
+/turf/open/indestructible/boss,
+/area/ruin/unpowered/ash_walkers)
+
+(1,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(2,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(3,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(4,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(5,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(6,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(7,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(8,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+tc
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(9,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+"}
+(10,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+AF
+SA
+SA
+SA
+SA
+SA
+"}
+(11,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+AF
+SA
+SA
+SA
+SA
+SA
+"}
+(12,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+SA
+"}
+(13,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+AF
+SA
+SA
+SA
+SA
+"}
+(14,1,1) = {"
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+Yv
+Yv
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+SA
+"}
+(15,1,1) = {"
+SA
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+Yv
+Yv
+gB
+gB
+by
+by
+ZB
+tE
+Mb
+by
+by
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+SA
+"}
+(16,1,1) = {"
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+Yv
+Yv
+gB
+gB
+by
+by
+by
+ZB
+RZ
+Mb
+by
+by
+by
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+"}
+(17,1,1) = {"
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+Yv
+Yv
+gB
+gB
+by
+by
+by
+gB
+gB
+gB
+gB
+gB
+by
+by
+by
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+"}
+(18,1,1) = {"
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+Yv
+gB
+gB
+by
+by
+by
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+by
+by
+by
+gB
+gB
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+"}
+(19,1,1) = {"
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+Yv
+gB
+Cc
+by
+by
+gB
+gB
+gB
+QZ
+tE
+OZ
+gB
+gB
+gB
+by
+by
+by
+gB
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+TL
+TL
+gB
+gB
+SA
+SA
+SA
+"}
+(20,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+Yv
+gB
+SQ
+SQ
+gB
+gB
+gB
+St
+QZ
+tE
+QZ
+vW
+gB
+gB
+gB
+oh
+Vs
+gB
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+TL
+qI
+qI
+gB
+on
+on
+SA
+"}
+(21,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+RR
+PU
+RR
+RR
+RR
+RR
+RR
+gB
+ad
+vV
+gB
+gB
+so
+so
+Nn
+Bc
+gZ
+xs
+xs
+gB
+gB
+LY
+ad
+gB
+gB
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+Ep
+qI
+qI
+gB
+on
+on
+on
+"}
+(22,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+Ax
+Ax
+Ax
+Ax
+Ax
+rT
+Ax
+gB
+LJ
+mJ
+qT
+tT
+si
+Xu
+NT
+sl
+tq
+BN
+Fm
+gB
+gB
+yF
+mJ
+XY
+wY
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+Ep
+qI
+qI
+Ue
+on
+on
+on
+"}
+(23,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+xY
+xY
+xY
+km
+Xy
+xY
+xY
+xY
+gB
+LD
+Jt
+gB
+gB
+si
+so
+Co
+gU
+Ew
+xs
+xs
+gB
+gB
+Jt
+jK
+gB
+gB
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+Ep
+qI
+qI
+gB
+on
+on
+on
+"}
+(24,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+on
+on
+on
+jL
+EM
+on
+on
+Yv
+gB
+DP
+DP
+gB
+gB
+gB
+fk
+EX
+Mp
+EX
+fX
+gB
+gB
+gB
+SQ
+DP
+gB
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+TL
+qI
+qI
+gB
+on
+on
+SA
+"}
+(25,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+on
+on
+on
+jL
+EM
+on
+on
+Yv
+gB
+by
+by
+by
+gB
+gB
+gB
+rU
+Qy
+EX
+gB
+gB
+gB
+by
+by
+by
+gB
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+TL
+TL
+gB
+gB
+SA
+SA
+SA
+"}
+(26,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+on
+on
+jL
+EM
+on
+on
+Yv
+gB
+gB
+by
+by
+by
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+by
+by
+by
+gB
+gB
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+"}
+(27,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+on
+on
+jL
+EM
+on
+on
+Yv
+Yv
+gB
+gB
+by
+by
+by
+gB
+gB
+gB
+gB
+gB
+by
+by
+by
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+"}
+(28,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+on
+on
+jL
+bv
+on
+on
+on
+Yv
+Yv
+gB
+gB
+by
+by
+by
+AP
+Ym
+nV
+by
+by
+by
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+"}
+(29,1,1) = {"
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+on
+jL
+EM
+on
+on
+on
+on
+Yv
+Yv
+gB
+gB
+by
+by
+AP
+Ym
+nV
+by
+by
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+"}
+(30,1,1) = {"
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+jL
+EM
+on
+on
+on
+on
+on
+Yv
+Yv
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+gB
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+SA
+SA
+SA
+"}
+(31,1,1) = {"
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+"}
+(32,1,1) = {"
+SA
+SA
+SA
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+AF
+SA
+SA
+SA
+SA
+"}
+(33,1,1) = {"
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+SA
+"}
+(34,1,1) = {"
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+"}
+(35,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(36,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(37,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(38,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+AF
+AF
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+on
+on
+on
+on
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(39,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+on
+on
+AF
+AF
+AF
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(40,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+on
+on
+on
+on
+AF
+AF
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(41,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+on
+on
+gW
+on
+on
+AF
+SA
+SA
+AF
+AF
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(42,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+on
+on
+on
+on
+on
+AF
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+AF
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(43,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+on
+on
+on
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+AF
+tc
+tc
+tc
+AF
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
+(44,1,1) = {"
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+on
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+AF
+AF
+AF
+AF
+AF
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+SA
+"}
