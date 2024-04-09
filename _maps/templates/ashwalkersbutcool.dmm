@@ -244,6 +244,16 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"iN" = (
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked,
+/turf/open/indestructible/boss/air,
+/area/ruin/unpowered/ash_walkers)
 "jF" = (
 /obj/structure/stone_tile/block/cracked,
 /obj/item/storage/toolbox/syndicate,
@@ -2515,7 +2525,7 @@ NW
 gB
 gB
 si
-so
+iN
 Co
 gU
 Ew
