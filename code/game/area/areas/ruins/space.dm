@@ -529,3 +529,36 @@
 /area/ruin/space/has_grav/syndiederelict/virology
 	name = "Syndicate Derelict Virology"
 	icon_state = "virology"
+
+//Goat Ship
+
+/area/ruin/space/has_grav/goat_transport
+	name = "Goat Transport Ship"
+	icon_state = "red"
+
+/area/ruin/space/has_grav/goat_transport/bridge
+	name = "Goat Transport Ship Bridge"
+
+/area/ruin/space/has_grav/goat_transport/crew
+	name = "Goat Transport Ship Crew Quarters"
+
+/area/ruin/space/has_grav/goat_transport/security
+	name = "Goat Transport Ship Security Office"
+
+/area/ruin/space/has_grav/goat_transport/docking_hall
+	name = "Goat Transport Ship Central Hallway"
+
+/area/ruin/space/has_grav/goat_transport/module_1
+	name = "Goat Transport Ship Container 1"
+
+/area/ruin/space/has_grav/goat_transport/module_2
+	name = "Goat Transport Ship Container 2"
+
+/area/ruin/space/has_grav/goat_transport/medical
+	name = "Goat Transport Ship Infirmary"
+
+/area/ruin/space/has_grav/goat_transport/storage
+	name = "Goat Transport Ship Storage"
+
+/area/ruin/space/has_grav/goat_transport/engine
+	name = "Goat Transport Ship Engine Room"
