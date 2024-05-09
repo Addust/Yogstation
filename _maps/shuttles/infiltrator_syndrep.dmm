@@ -591,6 +591,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "syndieshiplockdown";
+	name = "lockdown shutters"
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/eva)
 "aX" = (
@@ -1080,11 +1084,6 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -30
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "syndieshiplockdown";
-	name = "lockdown shutters"
-	},
-/obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/hallway)
 "bL" = (
@@ -2231,11 +2230,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "syndieshiplockdown";
-	name = "lockdown shutters"
-	},
-/obj/machinery/door/firedoor/heavy,
 /obj/machinery/recharger/wallrecharger{
 	pixel_x = 32;
 	pixel_y = 4
@@ -2286,19 +2280,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/medical)
-"Ge" = (
-/obj/machinery/door/poddoor/shutters/window/preopen{
-	name = "windowed lockdown shutters";
-	id = "syndieshiplockdown"
-	},
-/obj/machinery/door/firedoor/heavy,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
 "Hj" = (
 /obj/structure/closet/secure_closet/syndicate/captain,
 /obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
@@ -2327,6 +2308,7 @@
 	icon_state = "4-8"
 	},
 /obj/item/storage/backpack/satchel/leather,
+/obj/item/clothing/neck/cloak/nukie,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)
 "Hm" = (
@@ -2950,7 +2932,7 @@ cg
 aV
 qD
 aD
-Ge
+aD
 aD
 aD
 bL
