@@ -2340,6 +2340,11 @@
 	},
 /obj/item/storage/backpack/satchel/leather,
 /obj/item/clothing/neck/cloak/nukie,
+/obj/item/toy/plush/carpplushie/dehy_carp{
+	break_message = "%SRC vanishes in a small explosion.";
+	desc = "An adorable stuffed toy that resembles Cayenne. Faintly smells of explosives.";
+	name = "cayenne plushie"
+	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)
 "Hm" = (
