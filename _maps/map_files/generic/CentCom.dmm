@@ -23171,6 +23171,10 @@
 /obj/item/clothing/gloves/color/captain/centcom,
 /obj/item/clothing/head/beret/sec/centcom,
 /obj/item/clothing/under/rank/centcom/commander,
+/obj/item/radio/headset/headset_cent/bowman{
+	command = 1;
+	desc = "A headset especially for emergency response personnel. Protects ears from flashbangs. This one has been upgraded with a voice amplifier."
+	},
 /turf/open/floor/carpet/executive,
 /area/centcom/ferry)
 "pCa" = (
