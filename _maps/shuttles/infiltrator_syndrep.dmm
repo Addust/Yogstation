@@ -369,6 +369,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/machinery/airalarm/syndicate{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/open/floor/wood,
 /area/shuttle/syndicate/bridge)
 "aF" = (
@@ -1144,6 +1148,10 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/airalarm/syndicate{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/medical)
 "bS" = (
@@ -1182,6 +1190,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
+	},
+/obj/machinery/airalarm/syndicate{
+	dir = 1;
+	pixel_y = -24
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/armory)
@@ -1692,6 +1704,10 @@
 	},
 /obj/structure/window/plasma/reinforced/spawner/north,
 /obj/structure/table/reinforced,
+/obj/machinery/airalarm/syndicate{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/hallway)
 "jw" = (
@@ -2203,6 +2219,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
+/obj/machinery/airalarm/syndicate{
+	dir = 1;
+	pixel_y = -24
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
 "Eh" = (
@@ -2280,6 +2300,17 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/medical)
+"Ge" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/airalarm/syndicate{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/syndicate/bridge)
 "Hj" = (
 /obj/structure/closet/secure_closet/syndicate/captain,
 /obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
@@ -2389,6 +2420,10 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
+	},
+/obj/machinery/airalarm/syndicate{
+	dir = 1;
+	pixel_y = -24
 	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)
@@ -2662,6 +2697,10 @@
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 25
 	},
+/obj/machinery/airalarm/syndicate{
+	dir = 1;
+	pixel_y = -24
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/airlock)
 "XM" = (
@@ -2872,7 +2911,7 @@ aa
 Hm
 ah
 ap
-at
+Ge
 gz
 cl
 gz

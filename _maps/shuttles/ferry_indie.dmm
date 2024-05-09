@@ -273,7 +273,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /obj/machinery/button/door{
-	req_access = list(109);
+	req_access = list(101);
 	id = "ntferrylockdown";
 	pixel_y = 24;
 	name = "Full Ship Lockdown";
@@ -312,7 +312,7 @@
 	dir = 4
 	},
 /obj/machinery/button/door{
-	req_access = list(109);
+	req_access = list(101);
 	id = "ntferrylockdown";
 	pixel_y = 8;
 	name = "Full Ship Lockdown"

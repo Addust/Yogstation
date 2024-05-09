@@ -21939,6 +21939,17 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/syndicate_mothership)
+"fAk" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "centcom_storyline_freight3"
+	},
+/obj/structure/closet/crate,
+/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/turf/open/floor/plating,
+/area/centcom/ferry)
 "fMl" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -23152,7 +23163,7 @@
 /area/centcom/ferry)
 "pzF" = (
 /obj/structure/closet/secure_closet{
-	req_access = list(109);
+	req_access = list(101);
 	icon_state = "cap";
 	name = "nanotrasen representative's locker"
 	},
@@ -23519,19 +23530,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/syndicate_mothership)
-"sQo" = (
-/obj/machinery/conveyor{
-	dir = 1;
-	id = "centcom_storyline_freight3"
-	},
-/obj/structure/closet/crate,
-/mob/living/simple_animal/hostile/syndicate/ranged{
-	name = "stowaway Syndicate Operative";
-	desc = "How the fuck did he get here?";
-	loot = list(/obj/effect/mob_spawn/human/corpse/syndicatesoldier, /obj/item/gun/ballistic/automatic/pistol)
-	},
-/turf/open/floor/plating,
-/area/centcom/ferry)
 "sSY" = (
 /turf/open/indestructible/wiki/info{
 	icon_state = "info10"
@@ -58380,9 +58378,9 @@ xuc
 iIR
 wTB
 swr
-sQo
-poZ
 lPc
+poZ
+fAk
 oMr
 aaa
 pCa
