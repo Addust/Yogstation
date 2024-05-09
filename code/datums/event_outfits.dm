@@ -35,7 +35,7 @@
 	implants = list(/obj/item/implant/mindshield)
 	box = /obj/item/storage/box/survival
 
-	uniform = /obj/item/clothing/under/rank/centcom_commander
+	uniform = /obj/item/clothing/under/rank/centcom/commander
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/centcom
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 	gloves = /obj/item/clothing/gloves/color/captain/centcom
