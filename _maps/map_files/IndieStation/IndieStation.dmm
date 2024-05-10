@@ -6295,7 +6295,6 @@
 /area/library)
 "aQs" = (
 /obj/structure/destructible/cult/tome,
-/obj/item/clothing/under/suit_jacket/red,
 /obj/item/book/codex_gigas,
 /turf/open/floor/plasteel/cult,
 /area/library)
@@ -11330,13 +11329,6 @@
 /area/maintenance/port/fore)
 "bEb" = (
 /obj/structure/closet,
-/obj/item/clothing/under/suit_jacket/female{
-	pixel_x = 3;
-	pixel_y = 1
-	},
-/obj/item/clothing/under/suit_jacket/really_black{
-	pixel_x = -2
-	},
 /obj/structure/window{
 	dir = 1
 	},
@@ -40317,7 +40309,6 @@
 /area/quartermaster/sorting)
 "kNQ" = (
 /obj/structure/table/wood,
-/obj/item/clothing/under/waiter,
 /obj/item/clothing/accessory/waistcoat,
 /turf/open/floor/plasteel/dark,
 /area/maintenance/aft)
@@ -44606,12 +44597,6 @@
 "mom" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/chaplain,
-/obj/item/clothing/under/burial,
-/obj/item/clothing/under/burial,
-/obj/item/clothing/under/burial,
-/obj/item/clothing/under/burial,
-/obj/item/clothing/under/burial,
-/obj/item/clothing/under/burial,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/grimy,
 /area/chapel/office)
@@ -61291,7 +61276,7 @@
 /obj/item/card/id{
 	access = list(12);
 	name = "maintenance access card";
-	desc = "An ID card specifically used to access maintenance airlocks.";
+	desc = "A keycard specifically used to access maintenance airlocks.";
 	registered_name = "Maintenance Technician"
 	},
 /turf/open/floor/plating,
@@ -63171,7 +63156,6 @@
 /area/security/prison/hallway)
 "sCV" = (
 /obj/structure/table,
-/obj/item/clothing/under/soviet,
 /obj/item/clothing/head/ushanka{
 	pixel_y = 10
 	},
@@ -75373,8 +75357,9 @@
 	dir = 1
 	},
 /obj/machinery/door/firedoor/border_only,
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Synthetic Storage"
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
