@@ -19852,6 +19852,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
+"dQJ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/port/aft)
 "dQK" = (
 /obj/machinery/advanced_airlock_controller{
 	pixel_y = 24
@@ -27375,7 +27384,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/paper{
-	info = "Thanks for the AI core, idiots! Sincerely, the Flying Scotsman."
+	info = "Thanks for the AI core, landlubbers! Sincerely, the Flying Scotsman."
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai)
@@ -36201,6 +36210,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"jkC" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/stamp{
+	pixel_x = 10;
+	pixel_y = 3
+	},
+/obj/item/stamp/denied,
+/turf/open/floor/plasteel,
+/area/maintenance/port/aft)
 "jkJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -51645,6 +51668,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"oKK" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel,
+/area/maintenance/port/aft)
 "oKX" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -57204,7 +57238,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
+/obj/structure/filingcabinet,
 /turf/open/floor/plasteel,
 /area/maintenance/port/aft)
 "qDy" = (
@@ -102586,7 +102620,7 @@ dql
 hRi
 gbL
 ede
-qCZ
+oKK
 pEc
 hRi
 bCq
@@ -102843,7 +102877,7 @@ hRi
 hRi
 mAw
 ede
-qCZ
+jkC
 pEc
 hRi
 bCq
@@ -103358,7 +103392,7 @@ bHE
 nBM
 ede
 eaX
-rBH
+dQJ
 wOL
 fvL
 bHE
