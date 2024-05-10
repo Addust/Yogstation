@@ -157,9 +157,6 @@
 /area/shuttle/syndicate/bridge)
 "an" = (
 /obj/structure/table/reinforced,
-/obj/machinery/status_display/evac{
-	pixel_x = -32
-	},
 /obj/item/clipboard,
 /obj/machinery/light{
 	dir = 8
@@ -175,6 +172,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "syndicate";
+	pixel_x = -32
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
@@ -515,6 +516,10 @@
 	},
 /obj/item/storage/box/syndie_kit/chameleon,
 /obj/item/gun/energy/kinetic_accelerator/crossbow,
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "syndicate";
+	pixel_x = -32
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
 "aS" = (
@@ -792,7 +797,7 @@
 /turf/closed/wall/r_wall/syndicate,
 /area/shuttle/syndicate/armory)
 "bn" = (
-/obj/structure/sign/poster/contraband/tools,
+/obj/structure/sign/poster/contraband/pro_self,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/syndicate/medical)
 "bo" = (
@@ -1694,6 +1699,23 @@
 "gz" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/syndicate/bridge)
+"gS" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/airalarm/syndicate{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/syndicate/eva)
 "hM" = (
 /obj/effect/turf_decal/siding/wood/thin,
 /obj/effect/turf_decal/siding/wood/thin{
@@ -1759,10 +1781,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/wood,
-/area/shuttle/syndicate/bridge)
-"mA" = (
-/obj/structure/sign/poster/contraband/gorlex,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/syndicate/bridge)
 "mC" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -2057,23 +2075,6 @@
 /obj/item/gun/energy/kinetic_accelerator/crossbow,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
-"vt" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/airalarm/syndicate{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
 "vv" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/bot_white,
@@ -2163,27 +2164,6 @@
 	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/syndicate/armory)
-"AG" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/droneDispenser{
-	metal_cost = 50000;
-	dispense_type = /obj/item/ammo_box/m44;
-	name = "syndicate ammolathe";
-	desc = "An outdated type of ammunition production system still used by the Syndicate due to its automated nature. This one specifically is a .44 Magnum model, and is immensely rare in frontier space. It is also extremely inefficient.";
-	end_create_message = "dispenses a .44 Magnum speedloader!";
-	begin_create_message = "begins humming and clicking."
-	},
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass,
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
-"AQ" = (
-/obj/structure/sign/poster/contraband/pro_self,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/shuttle/syndicate/medical)
 "AV" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2287,6 +2267,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
+"Dq" = (
+/obj/structure/sign/poster/contraband/gorlex,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/syndicate/bridge)
 "Eh" = (
 /obj/effect/spawner/structure/window/plastitanium,
 /obj/machinery/door/poddoor/shutters{
@@ -2324,6 +2308,10 @@
 /obj/item/reagent_containers/food/snacks/bearsteak,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/hallway)
+"EF" = (
+/obj/structure/sign/poster/contraband/c20r,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/syndicate/bridge)
 "EL" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -2346,6 +2334,23 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/hallway)
+"Fd" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/droneDispenser{
+	metal_cost = 50000;
+	dispense_type = /obj/item/ammo_box/m44;
+	name = "syndicate ammolathe";
+	desc = "An outdated type of ammunition production system still used by the Syndicate due to its automated nature. This one specifically is a .44 Magnum model, and is immensely rare in frontier space. It is also extremely inefficient.";
+	end_create_message = "dispenses a .44 Magnum speedloader!";
+	begin_create_message = "begins humming and clicking."
+	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/syndicate/bridge)
 "Fu" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -2616,10 +2621,6 @@
 "Rc" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/syndicate/hallway)
-"Rs" = (
-/obj/structure/sign/poster/contraband/syndicate_recruitment,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/shuttle/syndicate/bridge)
 "Rz" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2632,8 +2633,12 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/hallway)
+"Si" = (
+/obj/structure/sign/poster/contraband/tools,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/syndicate/medical)
 "Sz" = (
-/obj/structure/sign/poster/contraband/c20r,
+/obj/structure/sign/poster/contraband/syndicate_recruitment,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/shuttle/syndicate/bridge)
 "SP" = (
@@ -2889,7 +2894,7 @@ be
 aZ
 aR
 up
-AQ
+bn
 br
 bD
 bH
@@ -2908,7 +2913,7 @@ aa
 aF
 ft
 gz
-Sz
+EF
 aM
 vz
 Uw
@@ -2938,7 +2943,7 @@ aM
 YP
 rJ
 oZ
-vt
+gS
 aK
 bt
 bD
@@ -2983,7 +2988,7 @@ Ge
 gz
 cl
 gz
-Rs
+Sz
 ax
 ax
 ax
@@ -2994,7 +2999,7 @@ bg
 bg
 bl
 bg
-bn
+Si
 aK
 Rc
 af
@@ -3079,11 +3084,11 @@ aa
 Hm
 al
 ap
-AG
+Fd
 gz
 gz
 aG
-mA
+Dq
 gz
 gz
 gz
