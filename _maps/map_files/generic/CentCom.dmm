@@ -22344,7 +22344,7 @@
 	},
 /obj/structure/closet/crate,
 /obj/item/gun/energy/e_gun/stun,
-/obj/item/gun/energy/e_gun/stun,
+/obj/item/melee/transforming/vib_blade,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "iSo" = (
