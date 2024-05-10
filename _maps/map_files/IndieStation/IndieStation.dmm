@@ -1588,7 +1588,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
 	},
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/engine,
 /area/science/misc_lab)
@@ -1877,7 +1876,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
@@ -19852,15 +19850,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
-"dQJ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/port/aft)
 "dQK" = (
 /obj/machinery/advanced_airlock_controller{
 	pixel_y = 24
@@ -21972,6 +21961,10 @@
 	name = "BIOHAZARD DISPOSAL UNIT WARNING";
 	desc = "A warning sign. Writing in the black triangle reads 'WARNING: BIOHAZARDOUS MATERIAL DISPOSAL. ALL MATERIAL WILL BE FED TO THE INCINERATOR. DO NOT UTILISE AS EVACUATION ROUTE.' Oddly specific."
 	},
+/obj/item/paper{
+	name = "very stern letter from atmospherics";
+	info = "DON'T YOU FUCKING DARE SHOVE SLIMES DOWN HERE. THIS GOES TO THE TURBINE. WE WILL BE BREAKING ALL YOUR WINDOWS IF YOU DO THIS."
+	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
 "eBC" = (
@@ -22004,6 +21997,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
+"eBK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/port/aft)
 "eBP" = (
 /obj/effect/turf_decal/trimline/engiyellow/filled/line/lower{
 	dir = 8
@@ -36210,20 +36212,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
-"jkC" = (
-/obj/structure/window/reinforced/spawner/north,
-/obj/effect/turf_decal/stripes{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/stamp{
-	pixel_x = 10;
-	pixel_y = 3
-	},
-/obj/item/stamp/denied,
-/turf/open/floor/plasteel,
-/area/maintenance/port/aft)
 "jkJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -38781,7 +38769,7 @@
 /obj/structure/table/reinforced,
 /obj/item/paper{
 	name = "paper - 'memo from engineering'";
-	info = "ahh FUCK i lost my progress when typing the original memo so this will be brief. left one is biohazard. any dead bodies that medical cant work their magic on or other biohazards go down there. the one on the right goes to grinder. use that to recycle shit. okay thanks good also clear all solid plasma or anything that can mess with the incinerator going down the left line with atmos or you might get your windows busted. thanks, engineering"
+	info = "ahh FUCK i broke my typewriter when typing the original memo so this will be brief. left one is biohazard. any dead bodies that medical cant work their magic on or other biohazards go down there. the one on the right goes to grinder. use that to recycle shit. okay thanks good also clear all solid plasma or anything that can mess with the incinerator going down the left line with atmos or you might get your windows busted. thanks, engineering"
 	},
 /obj/structure/window/reinforced,
 /obj/machinery/door/firedoor/border_only,
@@ -39990,6 +39978,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/checkpoint/engineering)
+"kHD" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/stamp{
+	pixel_x = 10;
+	pixel_y = 3
+	},
+/obj/item/stamp/denied,
+/turf/open/floor/plasteel,
+/area/maintenance/port/aft)
 "kHL" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -51668,17 +51670,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"oKK" = (
-/obj/structure/window/reinforced/spawner/north,
-/obj/effect/turf_decal/stripes{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/plasteel,
-/area/maintenance/port/aft)
 "oKX" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -57238,7 +57229,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/filingcabinet,
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/open/floor/plasteel,
 /area/maintenance/port/aft)
 "qDy" = (
@@ -59096,6 +59089,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"riH" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/filingcabinet,
+/turf/open/floor/plasteel,
+/area/maintenance/port/aft)
 "riJ" = (
 /obj/structure/sign/painting{
 	persistence_id = "public";
@@ -102106,7 +102108,7 @@ esm
 iRg
 esm
 vUl
-qCZ
+riH
 pEc
 abZ
 bCq
@@ -102363,7 +102365,7 @@ pnM
 hRi
 dpo
 tgJ
-qCZ
+riH
 pEc
 hRi
 bCq
@@ -102620,7 +102622,7 @@ dql
 hRi
 gbL
 ede
-oKK
+qCZ
 pEc
 hRi
 bCq
@@ -102877,7 +102879,7 @@ hRi
 hRi
 mAw
 ede
-jkC
+kHD
 pEc
 hRi
 bCq
@@ -103392,7 +103394,7 @@ bHE
 nBM
 ede
 eaX
-dQJ
+eBK
 wOL
 fvL
 bHE
