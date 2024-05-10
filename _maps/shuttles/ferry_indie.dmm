@@ -71,6 +71,10 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/machinery/status_display/shuttle{
+	shuttle_id = "ferry";
+	pixel_y = 32
+	},
 /turf/open/floor/wood,
 /area/shuttle/transport)
 "i" = (
