@@ -7,6 +7,7 @@
 	suit_store = null //empty because mateba spawns in locker
 	implants = list(/obj/item/implant/weapons_auth) //remove recall implant to prevent my dumb ass from getting spaced
 	uniform = /obj/item/clothing/under/syndicate/camo //drip
+	id = /obj/item/card/id/syndicate/nuke_leader
 	backpack_contents = list(
 		/obj/item/modular_computer/tablet/preset/syndicate=1,
 		/obj/item/codespeak_manual/unlimited=1,
