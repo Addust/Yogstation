@@ -77885,6 +77885,7 @@
 "xBG" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot_red,
+/obj/item/kitchen/knife/combat,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "xBH" = (
