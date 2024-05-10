@@ -87,9 +87,6 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
 "ai" = (
-/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate{
-	jump_to_ports = list("syndicate_ne" = 1, "syndicate_nw" = 1, "syndicate_n" = 1, "syndicate_se" = 1, "syndicate_sw" = 1, "syndicate_s" = 1, "whiteship_home" = 1)
-	},
 /obj/effect/turf_decal/bot_white,
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -97,12 +94,12 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
-"aj" = (
 /obj/machinery/computer/shuttle/syndicate{
 	possible_destinations = "syndicate_away;syndicate_z5;syndicate_ne;syndicate_nw;syndicate_n;syndicate_se;syndicate_sw;syndicate_s;spacebar;syndicate_custom;whiteship_home"
 	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/syndicate/bridge)
+"aj" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -112,6 +109,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate{
+	jump_to_ports = list("syndicate_ne" = 1, "syndicate_nw" = 1, "syndicate_n" = 1, "syndicate_se" = 1, "syndicate_sw" = 1, "syndicate_s" = 1, "whiteship_home" = 1)
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
@@ -1606,6 +1606,9 @@
 	dir = 1;
 	name = "tactical swivel chair"
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
 "dw" = (
@@ -1632,10 +1635,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 10
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
 "ft" = (
@@ -2529,6 +2530,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
 "QT" = (
@@ -2563,16 +2567,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/hallway)
-"Sz" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
 "SP" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -2941,7 +2935,7 @@ aa
 Hm
 ai
 dp
-Sz
+at
 au
 ay
 ab
