@@ -6236,7 +6236,8 @@
 /area/centcom/syndicate_mothership)
 "aso" = (
 /obj/effect/decal/fakelattice{
-	color = "#808080"
+	color = "#808080";
+	icon_state = "lattice-255"
 	},
 /turf/open/floor/plasteel/elevatorshaft{
 	color = "#808080"
@@ -11586,14 +11587,19 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "aDq" = (
-/obj/machinery/door/airlock/external,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom EVA Storage";
+	req_access_txt = "101"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "aDr" = (
-/obj/machinery/door/airlock/external,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -11602,6 +11608,13 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom EVA Storage";
+	req_access_txt = "101"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -12068,8 +12081,12 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/tdomeobserve)
 "aEq" = (
-/obj/machinery/door/airlock/external,
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom EVA Storage";
+	req_access_txt = "101"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plasteel,
 /area/centcom/tdome/tdomeobserve)
 "aEr" = (
@@ -12197,6 +12214,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -21588,6 +21608,14 @@
 "cgW" = (
 /turf/open/indestructible/wiki/whitescreen,
 /area/centcom/testchamber)
+"cml" = (
+/obj/structure/table/reinforced,
+/obj/item/paper{
+	name = "paper - 'DIRECT ORDER FROM ASSET PROTECTION'";
+	info = "This DNA setup is ONLY to be used to create injectors to restore one's identity after taking a Mulligan. Do not, I repeat, DO NOT, use this for any other purpose. You will be fined and potentially demoted. Sincerely, 724."
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "cmu" = (
 /obj/effect/turf_decal/trimline/secred/filled/line/lower{
 	dir = 9
@@ -21613,6 +21641,14 @@
 	},
 /turf/open/floor/engine,
 /area/centcom/syndicate_mothership)
+"cGs" = (
+/obj/structure/rack,
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "cJM" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -21735,9 +21771,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/syndicate_mothership/control)
+"dFT" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "dIX" = (
 /obj/effect/decal/fakelattice{
-	color = "#808080"
+	color = "#808080";
+	icon_state = "lattice-255"
 	},
 /obj/effect/decal/remains/human{
 	color = "#808080";
@@ -21758,6 +21800,13 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/dark,
 /area/centcom/ctf)
+"dLQ" = (
+/obj/structure/rack,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/turf/open/floor/plating,
+/area/centcom/control)
 "dRL" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/trimline/secred/filled/end/lower,
@@ -21767,6 +21816,18 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/syndicate_mothership)
+"dUZ" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/emergency,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
+"dVL" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "eeI" = (
 /obj/machinery/vending/wardrobe/gene_wardrobe,
 /turf/open/floor/plasteel/bluespace,
@@ -21824,6 +21885,14 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/grass,
 /area/centcom/tdome/tdomeadmin)
+"eBT" = (
+/obj/structure/rack,
+/obj/item/jawsoflife/jimmy,
+/obj/item/jawsoflife/jimmy,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "eDa" = (
 /turf/open/indestructible/wiki/title{
 	icon_state = "title1"
@@ -21950,6 +22019,12 @@
 /obj/item/reagent_containers/food/snacks/rationpack,
 /turf/open/floor/plating,
 /area/centcom/ferry)
+"fDN" = (
+/obj/machinery/computer/scan_consolenew{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "fMl" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -21982,6 +22057,10 @@
 /obj/item/storage/box/syndie_kit/chameleon,
 /turf/open/floor/plating,
 /area/centcom/ferry)
+"gee" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plating,
+/area/centcom/control)
 "gfq" = (
 /obj/machinery/vending/boozeomat/all_access,
 /turf/open/floor/plasteel/bluespace,
@@ -21990,6 +22069,10 @@
 /obj/machinery/vending/wardrobe,
 /turf/open/floor/plasteel/bluespace,
 /area/centcom)
+"gjd" = (
+/obj/machinery/dna_scannernew,
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "gkW" = (
 /obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/wood,
@@ -22006,6 +22089,9 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/yogs/infiltrator_base)
+"gzI" = (
+/turf/open/floor/plating,
+/area/centcom/control)
 "gCx" = (
 /obj/effect/landmark/wiki,
 /turf/open/indestructible/wiki/greenscreen,
@@ -22650,6 +22736,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/syndicate_mothership/control)
+"lTm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "lUC" = (
 /obj/machinery/vending/wardrobe/hydro_wardrobe,
 /turf/open/floor/plasteel/bluespace,
@@ -22659,7 +22752,8 @@
 	dir = 1
 	},
 /obj/effect/decal/fakelattice{
-	color = "#808080"
+	color = "#808080";
+	icon_state = "lattice-255"
 	},
 /turf/open/floor/plasteel/elevatorshaft{
 	color = "#808080"
@@ -22982,6 +23076,13 @@
 /obj/machinery/vending/medical/syndicate_access,
 /turf/open/floor/plasteel/bluespace,
 /area/centcom)
+"obH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "ofS" = (
 /obj/machinery/door/airlock/diamond,
 /turf/open/floor/plasteel/dark,
@@ -23013,6 +23114,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/syndicate_mothership/control)
+"okH" = (
+/obj/machinery/suit_storage_unit/command,
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/control)
 "ols" = (
 /obj/effect/turf_decal/trimline/secred/filled/line/lower{
 	dir = 5
@@ -23129,7 +23234,8 @@
 /area/centcom/ferry)
 "pfQ" = (
 /obj/effect/decal/fakelattice{
-	color = "#808080"
+	color = "#808080";
+	icon_state = "lattice-255"
 	},
 /obj/effect/decal/cleanable/blood/old{
 	color = "#808080"
@@ -23138,6 +23244,19 @@
 	color = "#808080"
 	},
 /area/centcom/syndicate_mothership)
+"pja" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -4
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 5
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "poJ" = (
 /obj/effect/turf_decal/trimline/secred/filled/corner/lower{
 	dir = 4
@@ -23292,6 +23411,16 @@
 /obj/machinery/vending/cola/sodie,
 /turf/open/floor/plasteel/bluespace,
 /area/centcom)
+"qrO" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 "qty" = (
 /obj/machinery/light,
 /turf/open/floor/engine,
@@ -23334,6 +23463,13 @@
 /obj/machinery/vending/engivend,
 /turf/open/floor/plasteel/bluespace,
 /area/centcom)
+"qLf" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "qSP" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -23469,6 +23605,11 @@
 /obj/item/flashlight/lantern,
 /turf/open/indestructible/brazil/necropolis,
 /area/brazil)
+"rNt" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "rOj" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -23601,6 +23742,12 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/engine,
 /area/centcom/syndicate_mothership)
+"tIe" = (
+/obj/machinery/door/poddoor{
+	id = "centcom_storyline_event_vault"
+	},
+/turf/closed/indestructible/fakeglass,
+/area/centcom/ferry)
 "tID" = (
 /turf/open/indestructible/wiki/info{
 	icon_state = "info6"
@@ -23706,7 +23853,8 @@
 /area/centcom/testchamber)
 "uFq" = (
 /obj/effect/decal/fakelattice{
-	color = "#808080"
+	color = "#808080";
+	icon_state = "lattice-255"
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel/elevatorshaft{
@@ -23751,6 +23899,10 @@
 /obj/item/clothing/head/chefhat,
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/syndicate_mothership)
+"uUK" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "uUV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -23872,6 +24024,17 @@
 	icon_state = "info14"
 	},
 /area/centcom/testchamber)
+"vMO" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom EVA Storage";
+	req_access_txt = "101"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/tdome/tdomeobserve)
 "vOA" = (
 /turf/open/indestructible/wiki/info{
 	icon_state = "info1"
@@ -23925,6 +24088,13 @@
 	icon_state = "info15"
 	},
 /area/centcom/testchamber)
+"vZn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "wbL" = (
 /obj/machinery/vending/wardrobe/chap_wardrobe,
 /turf/open/floor/plasteel/bluespace,
@@ -23945,11 +24115,23 @@
 	icon_state = "info32"
 	},
 /area/centcom/testchamber)
+"weq" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 "wkC" = (
 /turf/open/indestructible/wiki/title{
 	icon_state = "title4"
 	},
 /area/centcom/testchamber)
+"wlL" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "wnj" = (
 /turf/open/indestructible/wiki/info{
 	icon_state = "info30"
@@ -24041,6 +24223,13 @@
 /obj/item/reagent_containers/syringe/mulligan,
 /turf/open/floor/plating,
 /area/centcom/ferry)
+"wKG" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "wPo" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -24289,6 +24478,12 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/yogs/infiltrator_base)
+"yju" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 
 (1,1,1) = {"
 azH
@@ -55279,10 +55474,10 @@ bkj
 pXk
 amD
 amD
-amD
-amD
-amD
-amD
+tIe
+tIe
+tIe
+tIe
 amD
 amD
 aaa
@@ -58877,10 +59072,10 @@ bkj
 pXk
 amD
 amD
-amD
-amD
-amD
-amD
+cml
+gjd
+fDN
+uUK
 amD
 amD
 aaa
@@ -62738,10 +62933,10 @@ aCa
 aCy
 amD
 amD
+aTw
 amD
-amD
-aaa
-aaa
+weq
+aio
 aEp
 aEp
 aEp
@@ -62997,8 +63192,8 @@ iEO
 xht
 aCz
 amD
-aaa
-aaa
+yju
+gee
 aEp
 aFm
 aFD
@@ -63254,8 +63449,8 @@ amD
 pzF
 vqJ
 amD
-aaa
-aaa
+gzI
+dLQ
 aEp
 aFn
 aFE
@@ -63511,8 +63706,8 @@ amD
 amD
 amD
 amD
-aaa
-aaa
+qrO
+aio
 aEp
 aFo
 aFF
@@ -63765,10 +63960,10 @@ asw
 azD
 aCB
 amD
-aaa
-aaa
-aaa
-aaa
+okH
+okH
+okH
+obH
 aEp
 aEp
 aEp
@@ -64022,10 +64217,10 @@ asw
 asw
 aCC
 amD
-aaa
-aaa
-aaa
-aaa
+lTm
+lTm
+lTm
+qLf
 aEp
 aEE
 aEp
@@ -64279,13 +64474,13 @@ aUY
 asw
 aCD
 amD
-aaa
-aaa
-aaa
-aaa
+wlL
+pja
+cGs
+wlL
 aEq
-aEF
-aEq
+aGM
+vMO
 aFH
 aGe
 aGv
@@ -64536,10 +64731,10 @@ aBC
 asw
 aCE
 amD
-aaa
-aaa
-aaa
-aaa
+wKG
+dUZ
+eBT
+dVL
 aEp
 aEv
 aEp
@@ -64793,10 +64988,10 @@ asw
 asw
 aCF
 anT
-aaa
-aaa
-aaa
-aaa
+rNt
+vZn
+vZn
+vZn
 aEp
 aEG
 aEv
@@ -65050,10 +65245,10 @@ aBD
 apR
 aCG
 amD
-aaa
-aaa
-aaa
-aaa
+dFT
+okH
+okH
+okH
 aEp
 aEH
 aEv
@@ -65564,7 +65759,7 @@ aio
 aio
 aqw
 aiu
-aut
+aiC
 aiu
 alN
 aiu
