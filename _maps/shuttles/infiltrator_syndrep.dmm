@@ -21,7 +21,8 @@
 /turf/open/floor/wood,
 /area/shuttle/syndicate/bridge)
 "ac" = (
-/turf/closed/wall/r_wall/syndicate,
+/obj/structure/lattice,
+/turf/template_noop,
 /area/shuttle/syndicate/bridge)
 "ad" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -2467,6 +2468,11 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/wood,
 /area/shuttle/syndicate/airlock)
+"Lh" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon,
+/turf/template_noop,
+/area/shuttle/syndicate/bridge)
 "Mc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2783,6 +2789,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/armory)
+"XT" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/syndicate/bridge)
 "Yu" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
@@ -2857,13 +2867,13 @@ aJ
 "}
 (2,1,1) = {"
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aF
+Lh
+ac
+ac
+ac
+ac
+ac
+XT
 ax
 ax
 tQ
@@ -2886,7 +2896,7 @@ aa
 aa
 aa
 aa
-aa
+ac
 aa
 ax
 aL
@@ -2933,8 +2943,8 @@ cB
 (5,1,1) = {"
 ft
 ft
-ac
-ac
+gz
+gz
 gz
 ad
 aq
@@ -3133,8 +3143,8 @@ aa
 (13,1,1) = {"
 Cf
 Cf
-ac
-ac
+gz
+gz
 gz
 Hj
 pO
@@ -3186,7 +3196,7 @@ aa
 aa
 aa
 aa
-aa
+ac
 aa
 tZ
 pN
@@ -3207,13 +3217,13 @@ cF
 "}
 (16,1,1) = {"
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aF
+Lh
+ac
+ac
+ac
+ac
+ac
+XT
 Eh
 tZ
 aY
