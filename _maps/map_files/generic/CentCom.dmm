@@ -21785,9 +21785,6 @@
 	color = "#808080";
 	layer = 2.9
 	},
-/obj/effect/decal/cleanable/blood/old{
-	color = "#808080"
-	},
 /turf/open/floor/plasteel/elevatorshaft{
 	color = "#808080"
 	},
@@ -22801,18 +22798,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/ctf)
-"mmK" = (
-/obj/effect/decal/cleanable/blood/old{
-	color = "#808080"
-	},
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/elevatorshaft{
-	color = "#808080"
-	},
-/area/centcom/syndicate_mothership)
 "moB" = (
 /turf/open/indestructible/wiki/info{
 	icon_state = "info12"
@@ -23233,17 +23218,11 @@
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "pfQ" = (
-/obj/effect/decal/fakelattice{
-	color = "#808080";
-	icon_state = "lattice-255"
+/obj/structure/sign/warning/docking{
+	pixel_x = 32
 	},
-/obj/effect/decal/cleanable/blood/old{
-	color = "#808080"
-	},
-/turf/open/floor/plasteel/elevatorshaft{
-	color = "#808080"
-	},
-/area/centcom/syndicate_mothership)
+/turf/open/space/basic,
+/area/space)
 "pja" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical{
@@ -41604,7 +41583,7 @@ akR
 any
 jkt
 aso
-pfQ
+aso
 aso
 aso
 aso
@@ -41863,9 +41842,9 @@ amA
 lVu
 aso
 aso
-pfQ
 aso
-pfQ
+aso
+aso
 aso
 uFq
 aku
@@ -42118,12 +42097,12 @@ akR
 alm
 amA
 ipF
-mmK
 ipF
 ipF
 ipF
 ipF
-mmK
+ipF
+ipF
 ipF
 aku
 apX
@@ -54951,13 +54930,13 @@ aaa
 aaa
 aaa
 aaa
+pfQ
 aaa
 aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+pfQ
 aaa
 aaa
 aaa

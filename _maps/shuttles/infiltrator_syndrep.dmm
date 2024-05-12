@@ -2413,6 +2413,7 @@
 	desc = "An adorable stuffed toy that resembles Cayenne. Faintly smells of explosives.";
 	name = "cayenne plushie"
 	},
+/obj/item/codespeak_manual/unlimited,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)
 "Hm" = (
