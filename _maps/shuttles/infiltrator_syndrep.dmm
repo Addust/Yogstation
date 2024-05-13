@@ -2414,6 +2414,17 @@
 	desc = "An adorable stuffed toy that resembles Cayenne. Faintly smells of explosives.";
 	name = "cayenne plushie"
 	},
+/obj/item/radio{
+	icon_state = "radio";
+	name = "syndicate field radio";
+	desc = "A bulky field radio used by Syndicate field commanders to issue orders. This model is particularly old.";
+	freqlock = 1;
+	frequency = 1213;
+	syndie = 1;
+	syndicate = 1;
+	w_class = 3;
+	command = 1
+	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)
 "Hm" = (
