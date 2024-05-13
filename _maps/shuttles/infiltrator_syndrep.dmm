@@ -74,6 +74,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/item/pen,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/bridge)
 "ah" = (
@@ -2413,7 +2414,6 @@
 	desc = "An adorable stuffed toy that resembles Cayenne. Faintly smells of explosives.";
 	name = "cayenne plushie"
 	},
-/obj/item/codespeak_manual/unlimited,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)
 "Hm" = (

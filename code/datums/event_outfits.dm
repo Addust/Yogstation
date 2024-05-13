@@ -10,7 +10,6 @@
 	id = /obj/item/card/id/syndicate/nuke_leader
 	backpack_contents = list(
 		/obj/item/modular_computer/tablet/preset/syndicate=1,
-		/obj/item/codespeak_manual/unlimited=1,
 		/obj/item/melee/classic_baton/telescopic=1
 		)
 
@@ -19,13 +18,14 @@
 		return
 
 	H.ignores_capitalism = TRUE // begone capitalist pigdog!!!
+	H.faction |= ROLE_SYNDICATE
+	H.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
 
 /datum/outfit/syndicate_empty/icemoon_base/captain/event_rockandahardplace/prearmed
 	name = "EVENT - Syndicate Envoy - Extra Gun"
 	suit_store = /obj/item/gun/ballistic/revolver/mateba //extra gun
 	backpack_contents = list(
 		/obj/item/modular_computer/tablet/preset/syndicate=1,
-		/obj/item/codespeak_manual/unlimited=1,
 		/obj/item/ammo_box/m44=2,
 		/obj/item/melee/classic_baton/telescopic=1
 		)
