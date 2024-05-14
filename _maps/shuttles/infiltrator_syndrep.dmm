@@ -2738,6 +2738,11 @@
 "Vy" = (
 /obj/structure/filingcabinet,
 /obj/item/folder/syndicate/red,
+/obj/structure/sign/plaques/golden{
+	pixel_x = -32;
+	name = "commissioning plaque";
+	desc = "A golden commissioning plaque. It reads 'CSDV Valiant - Hammerhead-class Strike Transport - Commissioned 2552 for the Gorlex Marauders - Sic Semper Nanotrasen'. The Syndicate logo is etched on it."
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/hallway)
 "Wo" = (
