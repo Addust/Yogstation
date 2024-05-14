@@ -18935,7 +18935,6 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
-/obj/item/card/emag,
 /obj/item/card/emag/halloween,
 /obj/item/card/emag/bluespace,
 /obj/effect/turf_decal/tile/neutral,
@@ -18947,6 +18946,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
+	},
+/obj/item/card/emag{
+	desc = "A Nanotrasen equivalent to the infamous Cryptographic Sequencer used by the Syndicate. Designed to override Nanotrasen-designed circuitry in a much less blatantly obvious package.";
+	name = "electromagnetic signaller"
 	},
 /turf/open/floor/plasteel/bluespace,
 /area/centcom/testchamber)
@@ -22426,8 +22429,9 @@
 	id = "centcom_storyline_freight3"
 	},
 /obj/structure/closet/crate,
-/obj/item/gun/energy/e_gun/stun,
 /obj/item/melee/transforming/vib_blade,
+/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "iSo" = (
@@ -22720,8 +22724,17 @@
 	id = "centcom_storyline_freight3"
 	},
 /obj/structure/closet/crate,
-/obj/item/gun/energy/taser{
-	desc = "A low-capacity, energy-based stun gun used by security teams to subdue targets at range. It has a thin layer of rust over it."
+/obj/item/card/emag{
+	desc = "A Nanotrasen equivalent to the infamous Cryptographic Sequencer used by the Syndicate. Designed to override Nanotrasen-designed circuitry by hitting it with several well-placed EMPs and radio signals all at once. Only functional at short ranges.";
+	name = "electromagnetic signaller";
+	icon_state = "jammer";
+	icon = 'icons/obj/device.dmi'
+	},
+/obj/item/card/emag{
+	desc = "A Nanotrasen equivalent to the infamous Cryptographic Sequencer used by the Syndicate. Designed to override Nanotrasen-designed circuitry by hitting it with several well-placed EMPs and radio signals all at once. Only functional at short ranges.";
+	name = "electromagnetic signaller";
+	icon_state = "jammer";
+	icon = 'icons/obj/device.dmi'
 	},
 /turf/open/floor/plating,
 /area/centcom/ferry)
@@ -23257,6 +23270,7 @@
 /obj/item/gun/energy/kinetic_accelerator/crossbow{
 	desc = "A reverse-engineered version of the Syndicate energy crossbow, made by Nanotrasen."
 	},
+/obj/item/gun/energy/e_gun/advtaser,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "pzF" = (

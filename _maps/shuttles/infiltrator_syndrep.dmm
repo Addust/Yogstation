@@ -522,6 +522,7 @@
 	shuttle_id = "syndicate";
 	pixel_x = -32
 	},
+/obj/item/card/emag,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
 "aS" = (
@@ -2075,6 +2076,7 @@
 	},
 /obj/item/storage/box/syndie_kit/chameleon,
 /obj/item/gun/energy/kinetic_accelerator/crossbow,
+/obj/item/card/emag,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
 "vv" = (
