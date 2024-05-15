@@ -2047,24 +2047,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/medical)
-"sk" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/mob/living/simple_animal/pet/cat/space{
-	faction = list("Syndicate","neutral");
-	name = "jeremy";
-	desc = "A Syndicate-trained space cat. Doesn't really do much, as cats do."
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
 "sI" = (
 /turf/open/floor/circuit/red/anim{
 	initial_gas_mix = "n2=100;TEMP=80"
@@ -2170,6 +2152,24 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/syndicate/hallway)
+"xS" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/mob/living/simple_animal/pet/cat/space{
+	faction = list("Syndicate","neutral");
+	name = "jeremy";
+	desc = "A Syndicate-trained space cat. Doesn't really do much, as cats do."
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/hallway)
@@ -2474,7 +2474,8 @@
 	icon_state = "2-4"
 	},
 /obj/item/card/id/syndicate/nuke_leader{
-	name = "syndicate command ID"
+	name = "syndicate command ID";
+	icon_state = "id_gold"
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet/royalblack,
@@ -3071,7 +3072,7 @@ aQ
 xv
 az
 bK
-sk
+xS
 bE
 Rz
 CZ
