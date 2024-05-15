@@ -22013,10 +22013,15 @@
 	dir = 1;
 	id = "centcom_storyline_freight3"
 	},
-/obj/structure/closet/crate,
-/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
-/obj/item/gun/ballistic/automatic/pistol,
 /obj/item/reagent_containers/food/snacks/rationpack,
+/mob/living/simple_animal/hostile/syndicate/ranged/infiltrator{
+	loot = list(/obj/effect/mob_spawn/human/corpse/syndicatesoldier,/obj/item/gun/ballistic/automatic/pistol/suppressed);
+	obj_damage = 0;
+	melee_damage_upper = 15;
+	desc = "A highly-trained Syndicate agent. Seems like they've gone astray.";
+	name = "Syndicate Stowaway"
+	},
+/obj/structure/closet,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "fDN" = (
@@ -23761,6 +23766,12 @@
 	},
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/four,
+/obj/item/armorpolish{
+	desc = "A Nanotrasen imitation of Syndicate-issue armour polish. Probably good enough."
+	},
+/obj/item/armorpolish{
+	desc = "A Nanotrasen imitation of Syndicate-issue armour polish. Probably good enough."
+	},
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "tLI" = (

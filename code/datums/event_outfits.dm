@@ -66,3 +66,62 @@
 	W.update_label()
 
 	H.ignores_capitalism = TRUE // Yogs -- Lets Centcom guys buy a damned smoke for christ's sake
+
+/datum/outfit/rockandahardplace_syndicate_infiltrator
+	name = "EVENT - Syndicate Infiltrator"
+	uniform = /obj/item/clothing/under/syndicate/sniper
+	head = /obj/item/clothing/head/HoS/beret/syndicate
+	back = /obj/item/storage/backpack/satchel
+	suit = /obj/item/clothing/suit/armor/vest
+	belt = /obj/item/storage/belt/chameleon
+	mask = /obj/item/clothing/mask/gas/syndicate
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
+	glasses = /obj/item/clothing/glasses/sunglasses
+	ears = /obj/item/radio/headset/syndicate/alt
+	id = /obj/item/card/id/syndicate/anyone
+	l_pocket = /obj/item/flashlight/seclite
+	r_pocket = /obj/item/kitchen/knife/combat/survival
+	implants = list(/obj/item/implant/weapons_auth)
+	box = /obj/item/storage/box/survival/syndie
+	backpack_contents = list(
+		/obj/item/modular_computer/tablet/preset/syndicate=1
+		)
+
+/datum/outfit/rockandahardplace_syndicate_infiltrator/post_equip(mob/living/carbon/human/H)
+	H.faction |= ROLE_SYNDICATE
+	H.ignores_capitalism = TRUE // yarggghhhh im going to STEAL im going to INFILTRATE im going to INTRUDE
+	H.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
+
+/datum/outfit/rockandahardplace_nanotrasen_infiltrator
+	name = "EVENT - Nanotrasen Infiltrator" //Nanotrasen Envoy
+
+	implants = list(/obj/item/implant/mindshield)
+	box = /obj/item/storage/box/survival/security/radio
+
+	uniform = /obj/item/clothing/under/rank/centcom/officer
+	suit = /obj/item/clothing/suit/armor/vest
+	shoes = /obj/item/clothing/shoes/jackboots
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/radio/headset/headset_cent/bowman
+	glasses = /obj/item/clothing/glasses/sunglasses
+	head = /obj/item/clothing/head/beret/sec/centcom
+	belt = /obj/item/gun/energy/e_gun
+	l_pocket = /obj/item/melee/classic_baton/telescopic
+	back = /obj/item/storage/backpack/satchel/leather
+	id = /obj/item/card/id/centcom
+	backpack_contents = list(/obj/item/restraints/handcuffs/cable/zipties=1)
+
+/datum/outfit/rockandahardplace_nanotrasen_infiltrator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	if(visualsOnly)
+		return
+
+	var/obj/item/card/id/centcom/W = H.wear_id
+	W.access = get_all_accesses()
+	W.access += get_centcom_access("CentCom Official")
+	W.assignment = "Nanotrasen Security Detail"
+	W.originalassignment = "Nanotrasen Security Detail"
+	W.registered_name = H.real_name
+	W.update_label()
+
+	H.ignores_capitalism = TRUE // Yogs -- Lets Centcom guys buy a damned smoke for christ's sake

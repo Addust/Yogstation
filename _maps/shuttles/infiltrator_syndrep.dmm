@@ -523,6 +523,13 @@
 	pixel_x = -32
 	},
 /obj/item/card/emag,
+/obj/item/book/manual/nuclear,
+/obj/item/clothing/head/HoS/syndicate{
+	desc = "A black cap fit for a senior Syndicate operative."
+	},
+/obj/item/clothing/head/HoS/beret/syndicate,
+/obj/item/armorpolish,
+/obj/item/clothing/suit/space/hardsuit/infiltration,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
 "aS" = (
@@ -2077,6 +2084,13 @@
 /obj/item/storage/box/syndie_kit/chameleon,
 /obj/item/gun/energy/kinetic_accelerator/crossbow,
 /obj/item/card/emag,
+/obj/item/book/manual/nuclear,
+/obj/item/clothing/head/HoS/syndicate{
+	desc = "A black cap fit for a senior Syndicate operative."
+	},
+/obj/item/clothing/head/HoS/beret/syndicate,
+/obj/item/armorpolish,
+/obj/item/clothing/suit/space/hardsuit/infiltration,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
 "vv" = (
@@ -2408,7 +2422,9 @@
 /obj/structure/closet/secure_closet/syndicate/captain,
 /obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
 /obj/item/clothing/head/HoS/beret/syndicate,
-/obj/item/clothing/head/HoS/syndicate,
+/obj/item/clothing/head/HoS/syndicate{
+	desc = "A black cap fit for a senior Syndicate operative."
+	},
 /obj/item/clothing/mask/chameleon,
 /obj/item/clothing/under/syndicate/camo,
 /obj/item/clothing/under/syndicate/combat,
@@ -2438,16 +2454,8 @@
 	desc = "An adorable stuffed toy that resembles Cayenne. Faintly smells of explosives.";
 	name = "cayenne plushie"
 	},
-/obj/item/radio{
-	icon_state = "radio";
-	name = "syndicate field radio";
-	desc = "A bulky field radio used by Syndicate field commanders to issue orders. This model is particularly old.";
-	freqlock = 1;
-	frequency = 1213;
-	syndie = 1;
-	syndicate = 1;
-	w_class = 3;
-	command = 1
+/obj/item/modular_computer/tablet/pda/preset/syndicate{
+	syndicate = 1
 	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)

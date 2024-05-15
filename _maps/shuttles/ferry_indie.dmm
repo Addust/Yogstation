@@ -321,6 +321,10 @@
 	pixel_y = 8;
 	name = "Full Ship Lockdown"
 	},
+/obj/item/paper{
+	name = "paper - 'note'";
+	info = "Your supplies are kept in a diplomatic supply vault accessible through the starboard escape hatch. It should have been opened by the Admiral overseeing the operation. If not, let them know."
+	},
 /turf/open/floor/carpet/executive,
 /area/shuttle/transport)
 "y" = (
