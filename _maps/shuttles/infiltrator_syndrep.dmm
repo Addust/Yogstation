@@ -2047,6 +2047,24 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/medical)
+"sk" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/mob/living/simple_animal/pet/cat/space{
+	faction = list("Syndicate","neutral");
+	name = "jeremy";
+	desc = "A Syndicate-trained space cat. Doesn't really do much, as cats do."
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/syndicate/hallway)
 "sI" = (
 /turf/open/floor/circuit/red/anim{
 	initial_gas_mix = "n2=100;TEMP=80"
@@ -2224,6 +2242,10 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
+	},
+/obj/structure/bed/dogbed{
+	desc = "A comfy-looking cat bed. A tag reading 'JEREMY' has been placed on it.";
+	name = "jeremy's bed"
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/hallway)
@@ -3049,7 +3071,7 @@ aQ
 xv
 az
 bK
-az
+sk
 bE
 Rz
 CZ
