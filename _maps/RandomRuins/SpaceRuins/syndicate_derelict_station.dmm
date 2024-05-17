@@ -3,7 +3,7 @@
 /turf/template_noop,
 /area/template_noop)
 "Ak" = (
-/obj/effect/landmark/stationroom/ruin/syndicatederelict,
+/obj/effect/landmark/stationroom/syndicatederelict,
 /turf/template_noop,
 /area/template_noop)
 
