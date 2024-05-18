@@ -23009,6 +23009,8 @@
 /obj/structure/closet/crate,
 /obj/item/clothing/suit/space/hardsuit/engine,
 /obj/item/clothing/suit/space/hardsuit/engine,
+/obj/item/clothing/suit/space/hardsuit/mining,
+/obj/item/clothing/suit/space/hardsuit/mining,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "nDx" = (
