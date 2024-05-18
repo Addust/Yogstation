@@ -21885,6 +21885,13 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/grass,
 /area/centcom/tdome/tdomeadmin)
+"ezD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel,
+/area/centcom/ferry)
 "eBT" = (
 /obj/structure/rack,
 /obj/item/jawsoflife/jimmy,
@@ -23663,6 +23670,14 @@
 	name = "nanotrasen infiltrator ID card"
 	},
 /turf/open/floor/plating,
+/area/centcom/ferry)
+"sFA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/turf/open/floor/plasteel,
 /area/centcom/ferry)
 "sNZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -56295,7 +56310,7 @@ bkj
 bkj
 pXk
 amD
-avD
+sFA
 ujS
 ujS
 ujS
@@ -56552,7 +56567,7 @@ bkj
 bkj
 pXk
 amD
-avD
+ezD
 axf
 axf
 axf
@@ -56809,7 +56824,7 @@ bkj
 bkj
 pXk
 amD
-avD
+ezD
 axf
 axf
 axf

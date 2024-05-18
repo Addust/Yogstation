@@ -85,7 +85,11 @@
 	implants = list(/obj/item/implant/weapons_auth)
 	box = /obj/item/storage/box/survival/syndie
 	backpack_contents = list(
-		/obj/item/modular_computer/tablet/preset/syndicate=1
+		/obj/item/modular_computer/tablet/preset/syndicate=1,
+		/obj/item/gun/ballistic/automatic/pistol/suppressed=1,
+		/obj/item/storage/box/syndie_kit/pistolammo=1,
+		/obj/item/ammo_box/magazine/m10mm/cs=2,
+		/obj/item/ammo_box/magazine/m10mm/sp=1
 		)
 
 /datum/outfit/rockandahardplace_syndicate_infiltrator/post_equip(mob/living/carbon/human/H)
