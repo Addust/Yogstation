@@ -24281,6 +24281,28 @@
 /obj/item/borg/upgrade/modkit/indoors{
 	desc = "A reverse-engineered replica of a piece of Syndicate technology which automatically compensates for air pressure to permit kientic accelerators to be more effective in pressurised environments."
 	},
+/obj/item/borg/upgrade/modkit/damage,
+/obj/item/borg/upgrade/modkit/damage,
+/obj/item/borg/upgrade/modkit/damage,
+/obj/item/borg/upgrade/modkit/damage,
+/obj/item/borg/upgrade/modkit/hardness,
+/obj/item/borg/upgrade/modkit/hardness,
+/obj/item/borg/upgrade/modkit/hardness,
+/obj/item/borg/upgrade/modkit/hardness,
+/obj/item/borg/upgrade/modkit/hardness,
+/obj/item/borg/upgrade/modkit/range,
+/obj/item/borg/upgrade/modkit/range,
+/obj/item/borg/upgrade/modkit/range,
+/obj/item/borg/upgrade/modkit/range,
+/obj/item/borg/upgrade/modkit/range,
+/obj/item/borg/upgrade/modkit/tracer/adjustable,
+/obj/item/borg/upgrade/modkit/tracer/adjustable,
+/obj/item/borg/upgrade/modkit/chassis_mod/orange,
+/obj/item/borg/upgrade/modkit/chassis_mod/orange,
+/obj/item/borg/upgrade/modkit/chassis_mod,
+/obj/item/borg/upgrade/modkit/chassis_mod,
+/obj/item/borg/upgrade/modkit/aoe/turfs/andmobs,
+/obj/item/borg/upgrade/modkit/aoe/turfs/andmobs,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "wXe" = (
