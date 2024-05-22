@@ -229,7 +229,7 @@ GLOBAL_LIST_EMPTY(chosen_station_templates)
 
 
 /obj/effect/landmark/stationroom/syndicatederelict //im throwing shit at the wall to see what sticks
-	template_names = list("Syndicate Derelict Research Station", "Syndicate Derelict Listening Post", "Syndicate Derelict Warehouse")
+	template_names = list("Syndicate Derelict Research Station" = 35, "Syndicate Derelict Listening Post" = 35, "Syndicate Derelict Warehouse" = 30)
 
 /obj/effect/landmark/start/infiltrator
 	name = "infiltrator"
