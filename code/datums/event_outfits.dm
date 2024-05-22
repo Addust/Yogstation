@@ -98,7 +98,7 @@
 	H.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
 
 /datum/outfit/rockandahardplace_nanotrasen_infiltrator
-	name = "EVENT - Nanotrasen Infiltrator" //Nanotrasen Envoy
+	name = "EVENT - Nanotrasen Infiltrator" //Nanotrasen Infiltrator
 
 	implants = list(/obj/item/implant/mindshield)
 	box = /obj/item/storage/box/survival/security/radio
