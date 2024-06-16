@@ -887,9 +887,6 @@
 /obj/item/kirbyplants,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/listeningstation/quarters)
-"hv" = (
-/turf/closed/wall/explosive,
-/area/ruin/space/has_grav/listeningstation/warehouse)
 "hA" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
@@ -1941,9 +1938,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rust,
-/area/ruin/space/has_grav/listeningstation/engineering)
-"yV" = (
-/turf/closed/wall/explosive,
 /area/ruin/space/has_grav/listeningstation/engineering)
 "zc" = (
 /obj/structure/cable{
@@ -3875,7 +3869,7 @@ FS
 bu
 Oi
 OF
-hv
+Cy
 Uw
 UV
 zV
@@ -4003,7 +3997,7 @@ ae
 KJ
 ss
 at
-Wp
+wW
 cd
 wo
 lm
@@ -4201,7 +4195,7 @@ Dk
 Dk
 aT
 aI
-yV
+aI
 Dk
 bn
 as
