@@ -2457,6 +2457,7 @@
 /obj/item/modular_computer/tablet/pda/preset/syndicate{
 	syndicate = 1
 	},
+/obj/item/clothing/under/syndicate/sniper,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/syndicate/bridge)
 "Hm" = (

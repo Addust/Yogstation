@@ -18947,10 +18947,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/item/card/emag{
-	desc = "A Nanotrasen equivalent to the infamous Cryptographic Sequencer used by the Syndicate. Designed to override Nanotrasen-designed circuitry in a much less blatantly obvious package.";
-	name = "electromagnetic signaller"
-	},
+/obj/item/card/emag,
 /turf/open/floor/plasteel/bluespace,
 /area/centcom/testchamber)
 "aTS" = (
