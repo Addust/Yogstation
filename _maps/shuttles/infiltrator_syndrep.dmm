@@ -530,6 +530,7 @@
 /obj/item/clothing/head/HoS/beret/syndicate,
 /obj/item/armorpolish,
 /obj/item/clothing/suit/space/hardsuit/engine,
+/obj/item/radio/headset/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
 "aS" = (
@@ -2091,6 +2092,7 @@
 /obj/item/clothing/head/HoS/beret/syndicate,
 /obj/item/armorpolish,
 /obj/item/clothing/suit/space/hardsuit/mining,
+/obj/item/radio/headset/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/eva)
 "vv" = (
